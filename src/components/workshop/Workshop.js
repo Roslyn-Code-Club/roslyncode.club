@@ -13,6 +13,7 @@ export default function Workshop({ data }) {
               <div className="relative w-16 sm:w-24 h-16 sm:h-24">
                 <Image
                   src={placeholder}
+                  alt={data.title}
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center center"
@@ -23,6 +24,7 @@ export default function Workshop({ data }) {
               <div className="relative w-16 sm:w-24 h-16 sm:h-24">
                 <Image
                   src={getLanguage(data.lang)}
+                  alt={data.title}
                   layout="fill"
                   objectFit="cover"
                   objectPosition="center center"
