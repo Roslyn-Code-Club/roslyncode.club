@@ -21,6 +21,7 @@ export default function Board() {
                 <div className="flex flex-row items-center gap-x-4 w-full">
                   <div className="relative w-16 h-16 rounded-full overflow-hidden shadow-lg">
                     <Image
+                      alt={e.name}
                       src={e.img ? `/img/board/${e.img}` : placeholder}
                       layout="fill"
                       objectFit="cover"

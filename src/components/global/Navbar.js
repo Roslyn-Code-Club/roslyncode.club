@@ -18,6 +18,7 @@ export default function Navbar() {
           <Link href="/">
             <div className="relative w-[4.25rem] h-[4.25rem] cursor-pointer hover:scale-110 hover:rotate-[-12deg] active:scale-[0.98] transition-[3s] ease-linear">
               <Image
+                alt="Roslyn Code Club"
                 src={roslyncodeclub}
                 layout="fill"
                 objectFit="cover"
@@ -39,10 +40,16 @@ export default function Navbar() {
         <div className="flex flex-row gap-x-4 items-center justify-end w-auto flex-shrink-0">
           <ThemeSwitch />
           {status === "authenticated" ? (
-            <img
-              src={session.user.image}
-              className="w-8 h-auto rounded-full shadow-lg"
-            />
+            <div className="relative w-8 h-8 rounded-full overflow-hidden shadow-lg">
+              <Image
+                src={session.user.image}
+                alt={session.user.name}
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center center"
+                draggable="false"
+              />
+            </div>
           ) : null}
           {status === "authenticated" ? (
             <svg

@@ -24,6 +24,7 @@ export default function Login() {
                   objectFit="cover"
                   objectPosition="center center"
                   draggable="false"
+                  alt="Roslyn Code Club"
                 />
               </div>
               <h1 className="text-center text-2xl md:text-3xl 2xl:text-4xl font-bold tracking-tighter select-none whitespace-nowrap">

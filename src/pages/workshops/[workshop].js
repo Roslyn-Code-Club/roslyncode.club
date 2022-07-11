@@ -39,11 +39,9 @@ export default function WorkshopItem({ workshopContent }) {
             </h2>
           </div>
           <article className="prose prose-h1:font-bold prose-h1:mb-0 dark:prose-invert lg:prose-xl w-full pt-6 max-w-5xl">
-            <ReactMarkdown
-              rehypePlugins={[rehypeRaw]}
-              components={CodeBlock}
-              children={content}
-            />
+            <ReactMarkdown rehypePlugins={[rehypeRaw]} components={CodeBlock}>
+              {content}
+            </ReactMarkdown>
           </article>
         </div>
       </BodySection>

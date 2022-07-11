@@ -23,6 +23,7 @@ export default function Projects() {
                     >
                       <div className="relative w-full h-48 sm:h-64 shadow-lg rounded-lg overflow-hidden">
                         <Image
+                          alt={p.name}
                           src={`/img/projects/${p.img}`}
                           layout="fill"
                           objectFit="cover"

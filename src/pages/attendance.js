@@ -22,7 +22,7 @@ export default function Attendance() {
           <h1 className="text-5xl md:text-6xl 2xl:text-7xl font-bold tracking-tight py-8 w-full text-center">
             {`No meeting today :(`}
           </h1>
-          <Image src={pepesleep} draggable="false" />
+          <Image src={pepesleep} alt="Pepe Sleep" draggable="false" />
         </>
       )}
     </div>

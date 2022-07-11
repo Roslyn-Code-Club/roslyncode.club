@@ -20,10 +20,15 @@ export default function Workshop({ data }) {
                 />
               </div>
             ) : (
-              <img
-                src={getLanguage(data.lang)}
-                className="w-16 sm:w-24 h-auto"
-              />
+              <div className="relative w-16 sm:w-24 h-16 sm:h-24">
+                <Image
+                  src={getLanguage(data.lang)}
+                  layout="fill"
+                  objectFit="cover"
+                  objectPosition="center center"
+                  draggable="false"
+                />
+              </div>
             )}
           </div>
           <h1 className="text-center text-2xl md:text-3xl font-semibold tracking-tighter">
