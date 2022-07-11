@@ -1,0 +1,35 @@
+{
+  "name": "roslyn-code-club",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/typography": "^0.5.3",
+    "dayjs": "^1.11.3",
+    "gray-matter": "^4.0.3",
+    "lodash": "^4.17.21",
+    "next": "12.2.0",
+    "next-auth": "^4.9.0",
+    "next-themes": "^0.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.3",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-transition-group": "^4.4.2",
+    "react-typewriter-animate": "^1.2.3",
+    "rehype-raw": "^6.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.5"
+  }
+}

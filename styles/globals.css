@@ -1,0 +1,41 @@
+/*Stanley Zhao 7/7/2022*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*==================== Global ====================*/
+
+* {
+  scroll-behavior: smooth;
+}
+
+/*==================== Navigation ====================*/
+
+.mobileNav-enter {
+  opacity: 0;
+}
+.mobileNav-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.mobileNav-exit {
+  opacity: 1;
+}
+.mobileNav-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+/*==================== Embla Carousel ====================*/
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  position: relative;
+  flex: 0 0 100%;
+}
