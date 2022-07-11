@@ -24,7 +24,7 @@ export default function Carousel() {
     startSlideTimer();
 
     return () => clearInterval(slideInterval.current);
-  }, []);
+  }, [startSlideTimer]);
   let sortedList = projectsList.sort((a, b) => a.name.localeCompare(b.name));
   return (
     <div className="my-0 mx-auto overflow-hidden relative w-full">
