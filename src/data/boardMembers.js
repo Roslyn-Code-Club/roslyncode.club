@@ -15,7 +15,7 @@ export const boardMembers = [
     name: "Hanah Youn",
     position: "President",
     email: "hyoun24",
-    img: "",
+    img: "hanah.jpg",
   },
   {
     name: "Sonia Chandra",
