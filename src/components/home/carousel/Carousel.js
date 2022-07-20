@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect, useCallback } from "react";
 import CarouselItem from "./CarouselItem";
 import projectsData from "../../../data/projectsData";
 
@@ -7,14 +7,14 @@ export default function Carousel() {
   const slideInterval = useRef();
   const projectsList = projectsData[0].projects;
 
-  const startSlideTimer = () => {
+  const startSlideTimer = useCallback(() => {
     stopSlideTimer();
     slideInterval.current = setInterval(() => {
       setCurrentSlide((currentSlide) =>
         currentSlide < projectsList.length - 1 ? currentSlide + 1 : 0
       );
     }, 3000);
-  };
+  });
 
   const stopSlideTimer = () => {
     clearInterval(slideInterval.current);

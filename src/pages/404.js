@@ -24,7 +24,7 @@ export default function Login() {
             404 Not Found
           </h1>
           <h2 className="text-xl md:text-2xl 2xl:text-4xl font-mono tracking-tighter text-gray-900 dark:text-gray-200">
-            You've almost hacked into the mainframe, but you were caught!
+            You&apos;ve almost hacked into the mainframe, but you were caught!
           </h2>
         </div>
         <Link href={"/"}>
