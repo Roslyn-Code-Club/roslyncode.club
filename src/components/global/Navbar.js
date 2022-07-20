@@ -68,7 +68,7 @@ export default function Navbar() {
               />
             </svg>
           ) : (
-            <Link href="/login">
+            <Link href="/sign-in">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-auto w-8 hidden xl:block cursor-pointer hover:scale-105 ease-linear transition-[3s] active:scale-95"
@@ -163,18 +163,18 @@ export default function Navbar() {
                 <>
                   <h1
                     onClick={() => signOut()}
-                    className="text-3xl leading-tight font-black font-mono cursor-pointer w-min transition-[3s] border-b-2 border-white border-opacity-0 hover:border-opacity-100 ease-linear"
+                    className="text-3xl leading-tight font-black font-mono cursor-pointer w-min transition-[3s] border-b-2 border-white border-opacity-0 hover:border-opacity-100 ease-linear whitespace-nowrap"
                   >
-                    {`<logout/>`}
+                    {`<sign out/>`}
                   </h1>
                 </>
               ) : (
-                <Link href="/login">
+                <Link href="/sign-in">
                   <h1
                     onClick={() => setMenuOpen(false)}
-                    className="text-3xl leading-tight font-black font-mono cursor-pointer w-min transition-[3s] border-b-2 border-white border-opacity-0 hover:border-opacity-100 ease-linear"
+                    className="text-3xl leading-tight font-black font-mono cursor-pointer w-min transition-[3s] border-b-2 border-white border-opacity-0 hover:border-opacity-100 ease-linear whitespace-nowrap"
                   >
-                    {`<login/>`}
+                    {`<sign in/>`}
                   </h1>
                 </Link>
               )}

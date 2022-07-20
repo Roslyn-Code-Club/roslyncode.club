@@ -19,7 +19,7 @@ export default function Board() {
                 key={key}
               >
                 <div className="flex flex-row items-center gap-x-4 w-full">
-                  <div className="relative w-16 h-16 rounded-full overflow-hidden shadow-lg">
+                  <div className="relative w-16 h-16 md:w-20 md:h-20 2xl:w-24 2xl:h-24 rounded-full overflow-hidden shadow-lg">
                     <Image
                       alt={e.name}
                       src={e.img ? `/img/board/${e.img}` : placeholder}
@@ -30,17 +30,17 @@ export default function Board() {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <h1 className="text-2xl md:text-3xl 2xl:text-4xl font-semibold tracking-tighter">
+                    <h1 className="text-2xl md:text-3xl 2xl:text-4xl font-semibold tracking-tighter whitespace-pre-wrap">
                       {e.name}
                     </h1>
-                    <h2 className="text-lg md:text-xl 2xl:text-2xl font-medium dark:text-gray-200 text-lighterbgcontrast">
+                    <h2 className="text-lg md:text-xl 2xl:text-2xl font-medium dark:text-gray-200 text-lighterbgcontrast tracking-tight">
                       {e.position}
                     </h2>
                   </div>
                 </div>
                 <a
                   href={`mailto:${e.email}@roslynschools.org`}
-                  className="bg-roslyn px-4 py-2 w-full text-center 2xl:max-w-[75%] rounded-lg font-semibold text-xl cursor-pointer shadow-lg text-gray-100 hover:translate-y-[-0.125rem] transition-[3s] ease-linear"
+                  className="bg-roslyn px-4 py-2 w-full text-center 2xl:max-w-[90%] rounded-lg font-semibold text-xl cursor-pointer shadow-lg text-gray-100 hover:translate-y-[-0.125rem] transition-[3s] ease-linear"
                   target="_blank"
                   rel="noreferrer"
                 >

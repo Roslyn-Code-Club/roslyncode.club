@@ -9,7 +9,6 @@ export default function Login() {
   const router = useRouter();
 
   if (status === "authenticated") {
-    if (!session.user.email.includes("@roslynschools.org")) return signOut();
     return router.push("/index", "/");
   } else {
     return (

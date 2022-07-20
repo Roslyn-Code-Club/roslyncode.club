@@ -34,7 +34,7 @@ export default function Home() {
               ]}
             />
           </h2>
-          <Link href={"/attendance"}>
+          <Link href={status === "authenticated" ? "workshops" : "/sign-in"}>
             <span className="items-center gap-x-2 mt-6 text-white bg-roslyn text-2xl md:text-3xl 2xl:text-4xl px-6 py-3 2xl:px-8 2xl:py-4 rounded-xl font-semibold tracking-tighter hover:scale-105 active:scale-[0.98] cursor-pointer select-none transition-[5s] ease-linear">
               {status === "authenticated" ? "Get Started" : "Sign In"}
             </span>
@@ -136,7 +136,7 @@ export default function Home() {
       </BodySection>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="w-full h-auto select-none bg-roslyn"
+        className="w-full h-auto select-none dark:bg-darkbg"
         version="1.1"
         viewBox="0 0 2560 400"
       >

@@ -11,5 +11,17 @@ export default NextAuth({
   secret: process.env.JWT_SECRET,
   pages: {
     signIn: "/login",
+    error: "/error",
+  },
+  callbacks: {
+    async signIn({ account, profile }) {
+      if (account.provider === "google") {
+        return (
+          profile.email_verified && profile.email.endsWith("@roslynschools.org")
+        );
+      } else {
+        return false;
+      }
+    },
   },
 });
