@@ -39,7 +39,7 @@ export const boardMembers = [
     name: "Neville Pethani",
     position: "Community Outreach",
     email: "npethani24",
-    img: "",
+    img: "neville.jpg",
   },
   {
     name: "Amin Daneshmandnia",
