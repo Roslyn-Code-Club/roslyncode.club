@@ -27,7 +27,7 @@ export default function WorkshopItem({ workshopContent }) {
           <div className="flex flex-col items-center justify-center gap-y-2 pb-6">
             <Link href="/workshops">
               <h1 className="text-lg md:text-xl 2xl:text-2xl font-semibold cursor-pointer">
-                &larr; Back
+                &larr; Back to Workshops
               </h1>
             </Link>
             <h1 className="text-center text-4xl md:text-5xl 2xl:text-6xl font-bold tracking-tight">
