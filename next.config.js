@@ -9,7 +9,7 @@ const nextConfig = {
     return config;
   },
   images: {
-    domains: ["lh3.googleusercontent.com", "cdn.jsdelivr.net"],
+    domains: ["lh3.googleusercontent.com", "cdn.jsdelivr.net", "docs.google.com"],
   },
 };
 
