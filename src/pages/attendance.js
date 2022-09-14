@@ -15,7 +15,7 @@ export default function Attendance() {
   let formElement;
   if (dayOfWeek === "Wednesday" && noMeeting != true) {
     formElement = (
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeL9vX0fFXSQmTvCRNKHhae90P27DH4cGzVlJ7cD85bLEepUQ/viewform?embedded=true" width="640" height="1995" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeL9vX0fFXSQmTvCRNKHhae90P27DH4cGzVlJ7cD85bLEepUQ/viewform?embedded=true" width="640" height="1995" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
     );
   } else if (dayOfWeek === "Friday" && noMeeting != true) {
     formElement = (
