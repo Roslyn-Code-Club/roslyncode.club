@@ -6,6 +6,7 @@ const siteMetadata = {
   previewImg: "https://roslyncode.club/img/preview.png",
   license: "https://github.com/Roslyn-Code-Club/website/blob/main/LICENSE",
   instagram: "https://www.instagram.com/roslyncode/",
+  facebook: "https://www.facebook.com/roslyncode",
   github: "https://github.com/Roslyn-Code-Club/website",
 };
 
