@@ -57,7 +57,7 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-          <h1 className="text-md tracking-tighter md:text-lg">
+          <h1 className="text-sm tracking-tighter md:text-md">
             No part of this website may be reproduced or commercialized in any
             manner without prior written permission.{" "}
             <a
