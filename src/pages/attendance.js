@@ -3,7 +3,7 @@ import dayjs from "dayjs";
 import { noMeetings } from "../data/noMeetings";
 import pepesleep from "../../public/img/pepesleep.gif";
 import Image from "next/image";
-const wedForm = "FLUubhwjZNekdMRn7";
+const wedForm = "https://docs.google.com/forms/d/e/1FAIpQLSeL9vX0fFXSQmTvCRNKHhae90P27DH4cGzVlJ7cD85bLEepUQ/viewform";
 
 export default function Attendance() {
   const today = new Date();
@@ -17,7 +17,7 @@ export default function Attendance() {
     formElement = (
       <iframe
         className="overflow- shadow-lg rounded-lg w-[95vw] max-w-none h-[60vh] sm:w-full sm:max-w-lg md:max-w-2xl lg:max-w-4xl"
-        src={`https://forms.gle/${wedForm}`}
+        src={`${wedForm}`}
       />
     );
   } else if (dayOfWeek === "Friday" && noMeeting != true) {
