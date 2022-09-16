@@ -4,7 +4,7 @@ import Image from "next/image";
 import placeholder from "../../public/img/roslyncodeclub.svg";
 
 export default function Board() {
-  const thisYear = new Date().getFullYear();
+  const thisYear = "2022";
   return (
     <>
       <BodySection css={"dark:bg-darkbg items-center justify-center"}>
@@ -22,7 +22,7 @@ export default function Board() {
                   <div className="relative w-16 h-16 md:w-20 md:h-20 2xl:w-24 2xl:h-24 rounded-full overflow-hidden shadow-lg">
                     <Image
                       alt={e.name}
-                      src={e.img ? `/img/board/${e.img}` : placeholder}
+                      src={e.img ? `/img/board/${thisYear}/${e.img}` : placeholder}
                       layout="fill"
                       objectFit="cover"
                       objectPosition="center center"
