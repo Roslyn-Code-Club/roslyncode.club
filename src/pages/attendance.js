@@ -24,7 +24,7 @@ export default function Attendance() {
           Loading…
         </iframe>
         <h1 className="font-semibold italic">
-          If the form isn't loading for you, click{" "}
+          {`If the form isn't loading for you, click `}
           <a className="text-roslyn font-bold" href={wedForm}>
             here
           </a>
