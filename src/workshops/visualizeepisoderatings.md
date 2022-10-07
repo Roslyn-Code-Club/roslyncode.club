@@ -1,6 +1,6 @@
 ---
 title: Visualizing Episode Ratings
-year: 2021
+year: 2020
 draft: false
 lang: py
 slug: visualizeepisoderatings

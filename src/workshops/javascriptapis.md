@@ -1,6 +1,6 @@
 ---
 title: JavaScript APIs
-year: 2022
+year: 2021
 draft: false
 lang: js
 slug: javascriptapis

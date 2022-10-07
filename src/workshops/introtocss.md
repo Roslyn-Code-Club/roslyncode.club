@@ -1,6 +1,6 @@
 ---
 title: Introduction to CSS
-year: 2022
+year: 2021
 draft: false
 lang: css
 slug: introtocss

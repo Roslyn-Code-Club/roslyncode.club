@@ -1,6 +1,6 @@
 ---
 title: Random Movie Generator
-year: 2021
+year: 2020
 draft: false
 lang: py
 slug: randommoviegen

@@ -1,4 +1,5 @@
 import matter from "gray-matter";
+import { toInteger } from "lodash";
 import BodySection from "../components/global/BodySection";
 import Workshop from "../components/workshop/Workshop";
 
@@ -21,7 +22,7 @@ export default function Workshops({ data }) {
           {allWorkshops.map(([year, data], key) => (
             <div className="divide-y-2 pb-36" key={key}>
               <h1 className="text-5xl md:text-6xl 2xl:text-7xl font-bold tracking-tight pb-6">
-                {`${year - 1}-${year}`}
+                {`${year}-${toInteger(year) + 1}`}
               </h1>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8 items-center pt-6">
                 {data

@@ -1,6 +1,6 @@
 ---
 title: Introduction to Javascript Pt.3
-year: 2022
+year: 2021
 draft: false
 lang: js
 slug: introtojavascriptpt3
