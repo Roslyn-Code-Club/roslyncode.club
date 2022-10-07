@@ -3,7 +3,7 @@ import dayjs from "dayjs";
 import { noMeetings } from "../data/noMeetings";
 import pepesleep from "../../public/img/pepesleep.gif";
 import Image from "next/image";
-const wedForm =
+const attendanceForm =
   "https://docs.google.com/forms/d/e/1FAIpQLSeL9vX0fFXSQmTvCRNKHhae90P27DH4cGzVlJ7cD85bLEepUQ/viewform";
 
 export default function Attendance() {
@@ -25,18 +25,29 @@ export default function Attendance() {
         </iframe>
         <h1 className="font-semibold italic">
           {`If the form isn't loading for you, click `}
-          <a className="text-roslyn font-bold" href={wedForm}>
+          <a className="text-roslyn font-bold" href={attendanceForm}>
             here
           </a>
         </h1>
       </>
     );
-    // } else if (dayOfWeek === "Friday" && noMeeting != true) {
-    //   formElement = (
-    //     <h1 className="text-3xl md:text-4xl 2xl:text-5xl font-bold tracking-tight py-8 w-full text-center">
-    //       Place Friday Form Here
-    //     </h1>
-    //   );
+    } else if (dayOfWeek === "Friday" && noMeeting != true) {
+      formElement = (
+        <>
+          <iframe
+            className="overflow-hidden shadow-lg rounded-xl w-[95vw] max-w-none h-[60vh] sm:w-full sm:max-w-lg md:max-w-2xl lg:max-w-4xl"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeL9vX0fFXSQmTvCRNKHhae90P27DH4cGzVlJ7cD85bLEepUQ/viewform?embedded=true"
+          >
+            Loading…
+          </iframe>
+          <h1 className="font-semibold italic">
+            {`If the form isn't loading for you, click `}
+            <a className="text-roslyn font-bold" href={attendanceForm}>
+              here
+            </a>
+          </h1>
+        </>
+      );
   } else {
     formElement = (
       <>
