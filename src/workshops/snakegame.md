@@ -1,6 +1,6 @@
 ---
 title: Snake Game
-year: 2021
+year: 2020
 draft: false
 lang: js
 slug: snakegame

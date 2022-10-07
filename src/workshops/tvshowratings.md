@@ -1,6 +1,6 @@
 ---
 title: TV Show Ratings
-year: 2021
+year: 2020
 draft: false
 lang: py
 slug: tvshowratings

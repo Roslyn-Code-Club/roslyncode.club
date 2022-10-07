@@ -1,6 +1,6 @@
 ---
 title: Character Animation
-year: 2021
+year: 2020
 draft: false
 lang: css
 slug: characteranim

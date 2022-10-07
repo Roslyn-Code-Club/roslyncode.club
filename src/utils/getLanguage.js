@@ -11,6 +11,8 @@ export const getLanguage = (language) => {
     return java;
   } else if (language == "py") {
     return py;
+  } else if (language == "ctf") {
+    return ctf;
   } else {
     return "placeholder";
   }
@@ -33,3 +35,5 @@ const java =
 
 const py =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg";
+
+const ctf = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"

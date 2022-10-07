@@ -34,8 +34,8 @@ export default function WorkshopItem({ workshopContent }) {
               {data.title}
             </h1>
             <h2 className="text-center text-xl md:text-2xl 2xl:text-3xl font-semibold tracking-tight">
-              {data.year - 1}-{data.year} Workshop{" "}
-              {data.year - 1 == new Date().getFullYear() ? null : "(Legacy)"}
+              {data.year}-{data.year+1} Workshop{" "}
+              {data.year == new Date().getFullYear() ? null : "(Legacy)"}
             </h2>
           </div>
           <article className="prose prose-h1:font-bold prose-h1:mb-0 dark:prose-invert lg:prose-xl w-full pt-6 max-w-5xl">

@@ -1,6 +1,6 @@
 ---
 title: Introduction to JavaScript
-year: 2022
+year: 2021
 draft: false
 lang: js
 slug: introtojavascript

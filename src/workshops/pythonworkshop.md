@@ -1,6 +1,6 @@
 ---
 title: Python Workshop
-year: 2020
+year: 2019
 draft: false
 lang: py
 slug: pythonworkshop
