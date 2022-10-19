@@ -51,7 +51,7 @@ export const boardMembers = [
     name: "Brooke Weiss",
     position: "Event Organizer",
     email: "bweiss23",
-    img: "",
+    img: "brooke.jpg",
   },
   {
     name: "Aryan Kumar",
