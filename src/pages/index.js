@@ -124,7 +124,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-y-4 items-center">
               <h2 className="text-gray-200 text-2xl md:text-3xl 2xl:text-4xl tracking-tight text-start w-full">
-                Learn prominent topics and languages through our hands on
+                Learn prominent topics and languages through our hands-on
                 workshops.
               </h2>
               <div className="bg-gray-200 w-full h-[40vh] rounded-xl p-4 grid grid-cols-3 gap-2 md:gap-y-2 md:gap-x-4 items-center justify-items-center shadow-lg">
