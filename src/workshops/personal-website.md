@@ -2,8 +2,7 @@
 title: Personal Website
 year: 2020
 draft: false
-lang: html
-slug: personalwebsite
+category: html
 number: 1
 ---
 ## Workshop 1: Personal Website

@@ -2,8 +2,7 @@
 title: Voice Recognition with JavaScript
 year: 2021
 draft: false
-lang: js
-slug: voicerecognition
+category: js
 number: 6
 ---
 

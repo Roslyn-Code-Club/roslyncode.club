@@ -1,9 +1,8 @@
 ---
-title: picoCTF
+title: Intro to picoCTF
 year: 2022
 draft: false
-lang: ctf
-slug: picoctf
+category: ctf
 number: 3
 ---
 

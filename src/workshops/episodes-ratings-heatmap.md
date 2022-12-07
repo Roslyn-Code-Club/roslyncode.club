@@ -2,8 +2,7 @@
 title: Episode Ratings Heatmap
 year: 2020
 draft: false
-lang: py
-slug: episoderating
+category: py
 number: 10
 ---
 

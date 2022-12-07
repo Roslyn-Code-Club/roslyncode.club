@@ -2,8 +2,7 @@
 title: JavaScript APIs
 year: 2021
 draft: false
-lang: js
-slug: javascriptapis
+category: js
 number: 7
 ---
 

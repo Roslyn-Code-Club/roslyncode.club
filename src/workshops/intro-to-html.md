@@ -2,8 +2,7 @@
 title: Introduction to HTML
 year: 2021
 draft: false
-lang: html
-slug: introtohtml
+category: html
 number: 1
 ---
 

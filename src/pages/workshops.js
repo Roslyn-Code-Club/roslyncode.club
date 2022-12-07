@@ -51,7 +51,11 @@ export async function getStaticProps() {
     const rawContent = fs.readFileSync(path, {
       encoding: "utf-8",
     });
-    return rawContent;
+    let final = rawContent.replace(
+      `---`,
+      `---\nslug: ${workshop.replace(".md", "")}\n`
+    );
+    return final;
   });
 
   return {

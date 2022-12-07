@@ -2,8 +2,7 @@
 title: Web Scraping
 year: 2020
 draft: false
-lang: py
-slug: webscraping
+category: py
 number: 4
 ---
 

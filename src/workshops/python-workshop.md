@@ -2,8 +2,7 @@
 title: Python Workshop
 year: 2019
 draft: false
-lang: py
-slug: pythonworkshop
+category: py
 number: 2
 ---
 

@@ -2,8 +2,7 @@
 title: Character Animation
 year: 2020
 draft: false
-lang: css
-slug: characteranim
+category: css
 number: 2
 ---
 

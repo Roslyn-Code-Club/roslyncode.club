@@ -2,8 +2,7 @@
 title: Creating an App in App Lab
 year: 2019
 draft: false
-lang: other
-slug: applab
+category: other
 number: 1
 ---
 

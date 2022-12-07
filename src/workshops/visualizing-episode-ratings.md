@@ -2,8 +2,7 @@
 title: Visualizing Episode Ratings
 year: 2020
 draft: false
-lang: py
-slug: visualizeepisoderatings
+category: py
 number: 9
 ---
 ## Workshop 9: Visualizing Episode Ratings

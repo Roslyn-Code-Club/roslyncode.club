@@ -2,8 +2,7 @@
 title: TV Show Ratings
 year: 2020
 draft: false
-lang: py
-slug: tvshowratings
+category: py
 number: 7
 ---
 

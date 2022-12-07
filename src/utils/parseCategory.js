@@ -1,17 +1,17 @@
-export const getLanguage = (language) => {
-  if (language == "html") {
+export const parseCategory = (category) => {
+  if (category == "html") {
     return html;
-  } else if (language == "css") {
+  } else if (category == "css") {
     return css;
-  } else if (language == "js") {
+  } else if (category == "js") {
     return js;
-  } else if (language == "cpp") {
+  } else if (category == "cpp") {
     return cpp;
-  } else if (language == "java") {
+  } else if (category == "java") {
     return java;
-  } else if (language == "py") {
+  } else if (category == "py") {
     return py;
-  } else if (language == "ctf") {
+  } else if (category == "ctf") {
     return ctf;
   } else {
     return "placeholder";

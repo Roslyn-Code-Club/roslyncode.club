@@ -2,8 +2,7 @@
 title: Introduction to JavaScript
 year: 2021
 draft: false
-lang: js
-slug: introtojavascript
+category: js
 number: 3
 ---
 ## Workshop 3: Introduction to JavaScript

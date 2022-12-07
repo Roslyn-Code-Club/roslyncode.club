@@ -2,8 +2,7 @@
 title: Introduction to Javascript Pt.2
 year: 2021
 draft: false
-lang: js
-slug: introtojavascriptpt2
+category: js
 number: 4
 ---
 

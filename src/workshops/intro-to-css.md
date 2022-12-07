@@ -2,8 +2,7 @@
 title: Introduction to CSS
 year: 2021
 draft: false
-lang: css
-slug: introtocss
+category: css
 number: 2
 ---
 

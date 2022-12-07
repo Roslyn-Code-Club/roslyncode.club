@@ -2,8 +2,7 @@
 title: Snake Game
 year: 2020
 draft: false
-lang: js
-slug: snakegame
+category: js
 number: 3
 ---
 

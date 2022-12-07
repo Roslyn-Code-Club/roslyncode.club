@@ -2,8 +2,7 @@
 title: Intro to Data Analysis with Python
 year: 2020
 draft: false
-lang: py
-slug: introtodatanalysis
+category: py
 number: 8
 ---
 

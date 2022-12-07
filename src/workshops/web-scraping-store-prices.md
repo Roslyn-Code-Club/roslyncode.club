@@ -2,8 +2,7 @@
 title: Web Scraping Store Prices
 year: 2020
 draft: false
-lang: py
-slug: pricetracker
+category: py
 number: 5
 ---
 
