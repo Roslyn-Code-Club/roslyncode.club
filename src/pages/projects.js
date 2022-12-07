@@ -45,7 +45,7 @@ export default function Projects() {
                         {p.demo ? (
                           <a
                             href={p.demo}
-                            className="bg-roslyn px-4 py-2 rounded-lg text-white font-semibold shadow-lg hover:translate-y-[-0.125rem] transition-[3s] ease-linear"
+                            className="bg-roslyn px-4 py-2 rounded-lg text-white font-semibold shadow-lg hover:translate-y-[-0.125rem] hover:brightness-[80%] transition duration-300 ease-in-out"
                             target="_blank"
                             rel="noreferrer"
                           >
@@ -55,7 +55,7 @@ export default function Projects() {
                         {p.video ? (
                           <a
                             href={p.video}
-                            className="bg-roslyn px-4 py-2 rounded-lg text-white font-semibold shadow-lg hover:translate-y-[-0.125rem] transition-[3s] ease-linear"
+                            className="bg-roslyn px-4 py-2 rounded-lg text-white font-semibold shadow-lg hover:translate-y-[-0.125rem] hover:brightness-[80%] transition duration-300 ease-in-out"
                             target="_blank"
                             rel="noreferrer"
                           >

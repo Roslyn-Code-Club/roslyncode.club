@@ -12,7 +12,7 @@ export default function Footer() {
             href="https://szhao.dev"
             target="_blank"
             rel="noreferrer"
-            className="text-lg font-semibold tracking-tight md:text-xl"
+            className="text-base font-semibold tracking-tight md:text-lg"
           >
             &copy;{" "}
             {startYear == currentYear

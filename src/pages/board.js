@@ -22,7 +22,9 @@ export default function Board() {
                   <div className="relative w-16 h-16 md:w-20 md:h-20 2xl:w-24 2xl:h-24 rounded-full overflow-hidden shadow-lg">
                     <Image
                       alt={e.name}
-                      src={e.img ? `/img/board/${thisYear}/${e.img}` : placeholder}
+                      src={
+                        e.img ? `/img/board/${thisYear}/${e.img}` : placeholder
+                      }
                       layout="fill"
                       objectFit="cover"
                       objectPosition="center center"
@@ -40,7 +42,7 @@ export default function Board() {
                 </div>
                 <a
                   href={`mailto:${e.email}@roslynschools.org`}
-                  className="bg-roslyn px-4 py-2 w-full text-center 2xl:max-w-[90%] rounded-lg font-semibold text-xl cursor-pointer shadow-lg text-gray-100 hover:translate-y-[-0.125rem] transition-[3s] ease-linear"
+                  className="bg-roslyn px-4 py-2 w-full text-center 2xl:max-w-[90%] rounded-lg font-semibold text-xl cursor-pointer shadow-lg text-gray-100 hover:translate-y-[-0.125rem] hover:brightness-[85%] transition-[3s] ease-linear"
                   target="_blank"
                   rel="noreferrer"
                 >
