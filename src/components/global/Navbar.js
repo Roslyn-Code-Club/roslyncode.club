@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <>
       <div className="fixed w-full z-50 h-20 bg-roslyn flex flex-row items-center px-5 justify-between xl:justify-center shadow-xl">
-        <div className="xl:max-w-5xl w-full flex flex-row items-center justify-between">
+        <div className="xl:max-w-7xl w-full flex flex-row items-center justify-between">
           <Link href="/">
             <div className="relative w-[4.25rem] h-[4.25rem] cursor-pointer hover:scale-110 hover:rotate-[-12deg] active:scale-[0.98] transition-[3s] ease-linear">
               <Image
@@ -27,7 +27,7 @@ export default function Navbar() {
               />
             </div>
           </Link>
-          <div className="w-[75%] xl:flex flex-row items-center justify-around translate-y-[0.125rem] hidden">
+          <div className="w-[65%] xl:flex flex-row items-center justify-around translate-y-[0.125rem] hidden">
             {navLinks.map((e, key) => (
               <Link href={e.href} key={key}>
                 <h1 className="text-2xl text-white tracking-tight font-mono font-semibold cursor-pointer w-min transition-[3s] border-b-2 border-white border-opacity-0 hover:border-opacity-100 ease-linear">
@@ -40,16 +40,21 @@ export default function Navbar() {
         <div className="flex flex-row gap-x-4 items-center justify-end w-auto flex-shrink-0">
           <ThemeSwitch />
           {status === "authenticated" ? (
-            <div className="relative w-8 h-8 rounded-full overflow-hidden shadow-lg">
-              <Image
-                src={session.user.image}
-                alt={session.user.name}
-                layout="fill"
-                objectFit="cover"
-                objectPosition="center center"
-                draggable="false"
-              />
-            </div>
+            <Link href="/attendance">
+              <div
+                title="Attendance"
+                className="relative w-8 h-8 rounded-full overflow-hidden shadow-lg cursor-pointer"
+              >
+                <Image
+                  src={session.user.image}
+                  alt={session.user.name}
+                  layout="fill"
+                  objectFit="cover"
+                  objectPosition="center center"
+                  draggable="false"
+                />
+              </div>
+            </Link>
           ) : null}
           {status === "authenticated" ? (
             <svg
