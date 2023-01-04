@@ -59,7 +59,7 @@ export default function Navbar() {
                 </div>
               </Link>
               <span
-                className={`text-xs px-2 py-1 bg-gray-700 rounded-lg absolute top-16 bg-opacity-60 backdrop-blur-sm dark:bg-white-700 dark:text-white${
+                className={`text-xs px-2 bg-gray-700 py-1 rounded-lg absolute top-16 bg-opacity-60 backdrop-blur-sm text-white ${
                   tooltip ? "block" : "hidden"
                 }`}
               >
