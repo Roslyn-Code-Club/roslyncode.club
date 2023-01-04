@@ -27,7 +27,7 @@ export default function Resources() {
               <h3 className="text-base md:text-lg 2xl:text-xl tracking-tight dark:text-gray-200 text-gray-800">
                 One of the best ways to practice your proficiency is to compete!
                 Below are some reputable competitions. Contact the board if you
-                become aware of any that you'd like to share.
+                become aware of any that you&#39;d like to share.
               </h3>
             </div>
             <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
@@ -74,7 +74,7 @@ export default function Resources() {
               </h1>
               <h3 className="text-base md:text-lg 2xl:text-xl tracking-tight dark:text-gray-200 text-gray-800">
                 Below are a variety of learning and practice resources for a
-                variety of programming languages. They're all free, although
+                variety of programming languages. They&#39;re all free, although
                 some may have a premium version.
               </h3>
             </div>
