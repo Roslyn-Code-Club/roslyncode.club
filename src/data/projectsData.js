@@ -1,5 +1,22 @@
 const projectsData = [
   {
+    year: "2023",
+    projects: [
+      {
+        name: "AZPC",
+        creators: ["Michael Arzanipour"],
+        img: "azpc.png",
+        demo: "https://marzanipour.github.io/AZPC/",
+      },
+      {
+        name: "Water Data Analysis",
+        creators: ["Amin Daneshmandnia"],
+        img: "waterdataanalysis.jpg",
+        demo: "https://replit.com/@AminDaneshmandn/water-analysis",
+      },
+    ],
+  },
+  {
     year: "2022",
     projects: [
       {
