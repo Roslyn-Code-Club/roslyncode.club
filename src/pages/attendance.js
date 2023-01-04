@@ -4,6 +4,7 @@ var isBetween = require("dayjs/plugin/isBetween");
 dayjs.extend(isBetween);
 import { noMeetings } from "../data/noMeetings";
 import pepesleep from "../../public/img/pepesleep.gif";
+import pepewatch from "../../public/img/pepewatch.gif";
 import Image from "next/image";
 const attendanceForm =
   "https://docs.google.com/forms/d/e/1FAIpQLSeL9vX0fFXSQmTvCRNKHhae90P27DH4cGzVlJ7cD85bLEepUQ/viewform";
@@ -46,7 +47,7 @@ export default function Attendance() {
           <span className="text-5xl md:text-6xl 2xl:text-7xl font-bold tracking-tight p-8 w-full text-center">
             {`Meetings are from 3:45 PM to 4:30 PM`}
           </span>
-          <Image src={pepesleep} alt="Pepe Sleep" draggable="false" />
+          <Image src={pepewatch} alt="Pepe Watch" draggable="false" />
         </>
       );
     }
@@ -79,7 +80,7 @@ export default function Attendance() {
           <h1 className="text-5xl md:text-6xl 2xl:text-7xl font-bold tracking-tight py-8 w-full text-center">
             {`Meetings are from 2:44 PM to 3:30 PM`}
           </h1>
-          <Image src={pepesleep} alt="Pepe Sleep" draggable="false" />
+          <Image src={pepewatch} alt="Pepe Watch" draggable="false" />
         </>
       );
     }
