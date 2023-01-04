@@ -48,4 +48,11 @@ export const competitions = [
     href: "https://battlecode.org/",
     dates: ["1/9/23"],
   },
+  {
+    title: "CMIMC",
+    parentOrg: "Carnegie Mellon University",
+    img: "https://avatars.githubusercontent.com/u/31049484",
+    href: "https://cmimc.math.cmu.edu/home",
+    dates: ["4/15/23"], //Check when the official date is
+  },
 ];
