@@ -43,7 +43,7 @@ export default function Navbar() {
             <Link href="/attendance">
               <div
                 title="Attendance"
-                className="relative w-8 h-8 rounded-full overflow-hidden shadow-lg cursor-pointer"
+                className="relative w-8 h-8 rounded-full overflow-hidden cursor-pointer border-2 border-transparent hover:border-white transition ease-linear"
               >
                 <Image
                   src={session.user.image}
