@@ -34,4 +34,18 @@ export const competitions = [
     href: "https://www.lockheedmartin.com/en-us/who-we-are/communities/codequest.html",
     dates: ["4/22/23"],
   },
+  {
+    title: "ACSL",
+    parentOrg: "ACSL",
+    img: "https://www.eastpennsd.org/wp-content/uploads/2020/05/acls-eod.jpg",
+    href: "https://www.acsl.org/",
+    dates: ["1/30/23", "3/6/23"],
+  },
+  {
+    title: "BattleCode",
+    parentOrg: "MIT",
+    img: "https://i.ytimg.com/vi/x3a5dXaj-XA/maxresdefault.jpg",
+    href: "https://battlecode.org/",
+    dates: ["1/9/23"],
+  },
 ];
