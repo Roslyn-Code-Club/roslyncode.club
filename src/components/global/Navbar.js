@@ -41,6 +41,7 @@ export default function Navbar() {
         </div>
         <div className="flex flex-row gap-x-4 items-center justify-end w-auto flex-shrink-0">
           <ThemeSwitch />
+          {status === "authenticated" ? (
             <>
               <Link href="/attendance">
                 <div
@@ -59,13 +60,14 @@ export default function Navbar() {
                 </div>
               </Link>
               <span
-                className={`text-xs px-2 bg-gray-700 py-1 rounded-lg absolute top-16 bg-opacity-60 backdrop-blur-sm text-white ${
+                className={`text-xs px-2 py-1 bg-gray-700 rounded-lg absolute top-16 bg-opacity-60 backdrop-blur-sm text-white ${
                   tooltip ? "block" : "hidden"
                 }`}
               >
                 Sign In Attendance
               </span>
             </>
+          ) : null}
           {status === "authenticated" ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
