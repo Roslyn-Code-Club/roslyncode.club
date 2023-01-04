@@ -1,8 +1,11 @@
 import BodySection from "../components/global/BodySection";
 import { competitions } from "../data/competitions";
 import { resources } from "../data/resources";
+import { useState } from "react";
 
 export default function Resources() {
+  const [showMore, setShowMore] = useState(false);
+  const [res, setRes] = useState(resources.slice(0, 8));
   let pastComps = [];
   let sortedComps = competitions.sort(
     (a, b) => getUpcomingContestDate(a.dates) - getUpcomingContestDate(b.dates)
@@ -39,7 +42,7 @@ export default function Resources() {
                     <li className="relative w-full h-48 overflow-hidden border-2 border-transparent hover:border-roslyn cursor-pointer transition ease-linear p-2 md:p-4 2xl:p-6 bg-gray-100 dark:bg-darkbgcontrast rounded-xl shadow-lg flex flex-col items-center">
                       <div className="w-full h-full z-[1] absolute inset-0 bg-gradient-to-b from-transparent to-black" />
                       <span
-                        className={`absolute top-2 left-2 z-[1] px-2 py-1 rounded-lg tracking-tight font-bold ${
+                        className={`absolute top-2 left-2 z-[1] px-2 py-1 rounded-lg tracking-tight font-bold text-white ${
                           status.toLowerCase() === "upcoming"
                             ? "bg-roslyn"
                             : status.toLowerCase() === "past"
@@ -67,8 +70,8 @@ export default function Resources() {
               })}
             </ul>
           </section>
-          <section className="flex flex-col gap-y-4">
-            <div className="flex flex-col gap-y-2">
+          <section className="flex flex-col gap-y-4 items-center">
+            <div className="flex flex-col gap-y-2 w-full">
               <h1 className="text-3xl md:text-4xl 2xl:text-5xl font-bold tracking-tight">
                 Learning Resources
               </h1>
@@ -78,8 +81,8 @@ export default function Resources() {
                 some may have a premium version.
               </h3>
             </div>
-            <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-              {resources.map((r, key) => (
+            <ul className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+              {(showMore ? resources : res).map((r, key) => (
                 <a target="_blank" rel="noreferrer" href={r.href} key={key}>
                   <li className="relative w-full h-48 overflow-hidden border-2 border-transparent hover:border-roslyn cursor-pointer transition ease-linear p-2 md:p-4 2xl:p-6 rounded-xl shadow-lg flex flex-col items-center">
                     <div className="w-full h-full z-[1] absolute inset-0 bg-gradient-to-b from-transparent to-black" />
@@ -96,6 +99,12 @@ export default function Resources() {
                 </a>
               ))}
             </ul>
+            <span
+              onClick={() => setShowMore(!showMore)}
+              className="font-semibold leading-4 transition ease-linear cursor-pointer border-b-2 border-b-transparent hover:border-b-black dark:hover:border-b-white"
+            >
+              {showMore ? "Show Less" : "Show More"}
+            </span>
           </section>
         </div>
       </BodySection>

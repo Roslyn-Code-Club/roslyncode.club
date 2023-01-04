@@ -54,4 +54,14 @@ export const resources = [
     href: "https://codeforces.com/",
     img: "https://repository-images.githubusercontent.com/390296311/0f6c1240-462e-47ff-870d-e2d0ebb181f1",
   },
+  {
+    title: "W3Schools",
+    href: "https://www.w3schools.com/",
+    img: "https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s900-c-k-c0x00ffffff-no-rj",
+  },
+  {
+    title: "GeeksForGeeks",
+    href: "https://www.geeksforgeeks.org/",
+    img: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png",
+  }
 ];
