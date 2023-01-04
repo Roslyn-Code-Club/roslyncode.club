@@ -6,9 +6,11 @@ import { useState } from "react";
 import { CSSTransition } from "react-transition-group";
 import ThemeSwitch from "./ThemeSwitch";
 import { useSession, signOut, getSession } from "next-auth/react";
+import { set } from "lodash";
 
 export default function Navbar() {
   const { data: session, status } = useSession();
+  const [tooltip, setTooltip] = useState(false);
   const [hamButton, setHamButton] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
   return (
@@ -40,21 +42,31 @@ export default function Navbar() {
         <div className="flex flex-row gap-x-4 items-center justify-end w-auto flex-shrink-0">
           <ThemeSwitch />
           {status === "authenticated" ? (
-            <Link href="/attendance">
-              <div
-                title="Attendance"
-                className="relative w-8 h-8 rounded-full overflow-hidden cursor-pointer border-2 border-transparent hover:border-white transition ease-linear"
+            <>
+              <Link href="/attendance">
+                <div
+                  onMouseEnter={() => setTooltip(true)}
+                  onMouseLeave={() => setTooltip(false)}
+                  className="relative w-8 h-8 rounded-full overflow-hidden cursor-pointer border-2 border-transparent hover:border-white transition ease-linear"
+                >
+                  <Image
+                    src={session.user.image}
+                    alt={session.user.name}
+                    layout="fill"
+                    objectFit="cover"
+                    objectPosition="center center"
+                    draggable="false"
+                  />
+                </div>
+              </Link>
+              <span
+                className={`text-xs px-2 py-1 bg-gray-700 rounded-lg absolute top-16 bg-opacity-60 backdrop-blur-sm ${
+                  tooltip ? "block" : "hidden"
+                }`}
               >
-                <Image
-                  src={session.user.image}
-                  alt={session.user.name}
-                  layout="fill"
-                  objectFit="cover"
-                  objectPosition="center center"
-                  draggable="false"
-                />
-              </div>
-            </Link>
+                Sign In Attendance
+              </span>
+            </>
           ) : null}
           {status === "authenticated" ? (
             <svg
