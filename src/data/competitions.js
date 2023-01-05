@@ -44,7 +44,7 @@ export const competitions = [
   {
     title: "BattleCode",
     parentOrg: "MIT",
-    img: "https://i.ytimg.com/vi/x3a5dXaj-XA/maxresdefault.jpg",
+    img: "https://battlecode.org/assets/img/team/default.jpg",
     href: "https://battlecode.org/",
     dates: ["1/9/23"],
   },
