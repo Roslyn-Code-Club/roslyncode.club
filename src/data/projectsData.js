@@ -17,9 +17,9 @@ const projectsData = [
       {
         name: "Detector Building",
         creators: ["Aryan Kumar"],
-        
-        
-      }
+        img: "detectorbuilding.png",
+        demo: "https://www.tinkercad.com/login?next=%2Fthings%2FgDvQ4Qn5iyG-detector-build-20%2Feditel%3Fsharecode%3DYUV7cibydu_L378Xg-Ia3Jz2HbHFN-Qr7HnIcf2jCq0",
+      },
     ],
   },
   {
