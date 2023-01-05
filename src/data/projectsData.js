@@ -14,6 +14,12 @@ const projectsData = [
         img: "waterdataanalysis.jpg",
         demo: "https://replit.com/@AminDaneshmandn/water-analysis",
       },
+      {
+        name: "Detector Building",
+        creators: ["Aryan Kumar"],
+        
+        
+      }
     ],
   },
   {
