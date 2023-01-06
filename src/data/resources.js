@@ -57,11 +57,11 @@ export const resources = [
   {
     title: "W3Schools",
     href: "https://www.w3schools.com/",
-    img: "https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s900-c-k-c0x00ffffff-no-rj",
+    img: "https://play-lh.googleusercontent.com/y3eaXRp7E7JfproxFtRIf60pVkmgcPNCxIhx_P7Ith_u3jZufHLnZspbc0bC3t2k5A",
   },
   {
     title: "GeeksForGeeks",
     href: "https://www.geeksforgeeks.org/",
     img: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png",
-  }
+  },
 ];
