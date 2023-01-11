@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function Resources() {
   const [showMore, setShowMore] = useState(false);
-  const [res, setRes] = useState(resources.slice(0, 8));
+  const res = resources.slice(0, 8);
   let pastComps = [];
   let sortedComps = competitions.sort(
     (a, b) => getUpcomingContestDate(a.dates) - getUpcomingContestDate(b.dates)
@@ -133,7 +133,7 @@ function checkContestDateStatus(dates) {
 
 function getUpcomingContestDate(dates) {
   const today = new Date();
-  if (dates.length === 1 && dates[0] < today) return contestDate;
+  if (dates.length === 1 && dates[0] < today) return new Date(dates[i]);
 
   for (let i = 0; i < dates.length; i++) {
     let contestDate = new Date(dates[i]);
@@ -147,5 +147,4 @@ function getUpcomingContestDate(dates) {
       return contestDate;
     }
   }
-  return contestDate;
 }
