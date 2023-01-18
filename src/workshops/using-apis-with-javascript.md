@@ -33,7 +33,7 @@ To start coding in JavaScript, we can add `<script>` tags into our HTML document
 
 For today's workshop, we're going to be using [Sample APIs'](https://sampleapis.com/api-list) Jokes API endpoint. Let's create a function inside the `<script>` tag to call the API. Since we're getting a joke, let's name the function `getJoke`. Note that we declared the function `async` -this means _"asynchronous"_.
 
-Normal functions can be executed synchronously, meaning multiple functions can be executed at once. When working with APIs (or any function that involves working with dynamic data), we need to ensure the function finishes excuting before running any other code.ƒ
+Normal functions can be executed synchronously, meaning multiple functions can be executed at once. When working with APIs (or any function that involves working with dynamic data), we need to ensure the function finishes excuting before running any other code.
 
 ```html
 <!DOCTYPE html>
@@ -49,6 +49,8 @@ Normal functions can be executed synchronously, meaning multiple functions can b
 ### Step 3: Writing the function
 
 First we declare a `const` response since we won't be modifying the response from the API at all. We use `await` to ensure that we complete the request and receive our data. Then we declare `const arrayOfJokes`, which is an array of our data. At the end, we'll `console.log(arrayOfJokes)` to view the data we received. Outside of the function, we'll call the `getJoke()` function so that it actually gets executed.
+
+- We'll be using the following endpoint `https://api.sampleapis.com/jokes/goodJokes` which can be [found in the API endpoint list here.](https://sampleapis.com/api-list/jokes)
 
 ```html
 <!DOCTYPE html>
@@ -142,9 +144,9 @@ Having to declare what number joke we want is a bit boring. Instead, we can gene
 - `Math.floor()` truncates any decimals to make it an integer.
   - Example: `Math.floor(1.2345)` = 1
 - `Math.random()` generates a random number from 0 to 1, not including 1.
-- `* json.length` will change the values generated from `Math.random()`, making the range 0 to `json.length`.
-- You might wonder, wouldn't `json.length` be out of bounds? This isn't a problem because Math.random() will never generate exactly `json.length`.
-  - If `json.length` is 10, `Math.random()` may only generate up to 9.999999....
+- `* arrayOfJokes.length` will change the values generated from `Math.random()`, making the range 0 to `arrayOfJokes.length`.
+- You might wonder, wouldn't `arrayOfJokes.length` be out of bounds? This actually isn't a problem because Math.random() will never generate exactly `arrayOfJokes.length`.
+  - If `arrayOfJokes.length` is 10, `Math.random()` may only generate up to 9.999999....
   - `Math.floor()` will drop the decimals, making the largest value possible: 9.
 
 ```html
