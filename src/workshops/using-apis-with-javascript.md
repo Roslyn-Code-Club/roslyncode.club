@@ -129,8 +129,8 @@ If there are only 10 jokes returned from the API, and we set maxJokes to be 11, 
       const arrayOfJokes = await response.json();
       if (maxJokes > arrayOfJokes.length)
         return console.log("There aren't that many jokes");
-      let firstTen = arrayOfJokes.slice(0, 10);
-      return console.log(firstTen[n - 1]);
+      let firstNJokes = arrayOfJokes.slice(0, maxJokes);
+      return console.log(firstNJokes[n - 1]);
     }
     getJoke(5, 15);
   </script>
