@@ -4,12 +4,6 @@ import Image from "next/image";
 import React from "react";
 
 export default function PastBoard() {
-  let tenure = `${pastBoardData.year}-${pastBoardData.year + 1}`;
-  let month = new Date().getMonth();
-  //If it's past September, we'll adjust for the next school year
-  if (month + 1 >= 9)
-    tenure = `${pastBoardData.year + 1}-${pastBoardData.year + 2}`;
-
   return (
     <>
       {pastBoardData.map((year, key) => (
