@@ -2,12 +2,6 @@ export const boardData = {
   year: 2022,
   members: [
     {
-      name: "Mr. Ciavarella",
-      position: "Club Advisor",
-      email: "bciavarella",
-      img: "ciavarella.jpg",
-    },
-    {
       name: "Stanley Zhao",
       position: "President",
       email: "szhao23",
