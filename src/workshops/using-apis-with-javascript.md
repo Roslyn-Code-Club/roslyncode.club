@@ -147,7 +147,7 @@ Having to declare what number joke we want is a bit boring. Instead, we can gene
 - `Math.random() * arrayOfJokes.length` will change the range of `Math.random()` to 0 - `arrayOfJokes.length`.
 - You might wonder, wouldn't `arrayOfJokes.length` be out of bounds? This actually isn't a problem because Math.random() will never generate exactly `arrayOfJokes.length`.
   - If `arrayOfJokes.length` is 10, `Math.random()` may only generate up to 9.999999....
-  - `Math.floor()` will drop the decimals, making the largest value possible: 9.
+  - `Math.floor()` will truncate the decimals, making the largest generated value possible 9.
 
 ```html
 <!DOCTYPE html>
