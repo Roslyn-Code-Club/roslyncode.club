@@ -35,7 +35,6 @@ export const boardData = {
       name: "Brian Song",
       position: "Captain of Competition",
       email: "bsong23",
-      img: "",
     },
     {
       name: "Neville Pethani",
@@ -65,7 +64,6 @@ export const boardData = {
       name: "Dante Turkashwand",
       position: "Treasurer",
       email: "dturkashwand24",
-      img: "",
     },
   ],
 };
