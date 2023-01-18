@@ -139,7 +139,7 @@ If there are only 10 jokes returned from the API, and we set maxJokes to be 11, 
 
 ### Advanced Data Manipulation 2: Random Joke
 
-Having to declare what number joke we want is a bit boring. Instead, we can generate a random joke from our desired selection of jokes. Since we're generating a random joke, we won't need the `n` and `maxJokes` parameter in our function anymore. We can use `Math.floor(Math.random() * json.length)` to generate a random element from our `arrayOfJokes`.
+Having to declare what number joke we want is a bit boring. Instead, we can generate a random joke from our desired selection of jokes. Since we're generating a random joke, we won't need the `n` and `maxJokes` parameter in our function anymore. We can use `Math.floor(Math.random() * arrayOfJokes.length)` to generate a random element from our `arrayOfJokes`.
 
 - `Math.floor()` truncates any decimals to make it an integer.
   - Example: `Math.floor(1.2345)` = 1
