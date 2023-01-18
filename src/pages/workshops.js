@@ -5,16 +5,7 @@ import Workshop from "../components/workshop/Workshop";
 
 const _ = require("lodash");
 
-export default function Workshops({ data }) {
-  const frontMatter = data.map((workshop) => matter(workshop));
-  const listItems = frontMatter.map((listItem) => listItem.data);
-  listItems.sort((a, b) => b.year - a.year);
-
-  const test = _.groupBy(listItems, "year");
-  let allWorkshops = Object.entries(test).sort(
-    ([ayear], [byear]) => byear - ayear
-  );
-
+export default function Workshops({ allWorkshops }) {
   return (
     <>
       <BodySection css="dark:bg-darkbg items-center justify-center">
@@ -58,7 +49,16 @@ export async function getStaticProps() {
     return final;
   });
 
+  const frontMatter = data.map((workshop) => matter(workshop));
+  const listItems = frontMatter.map((listItem) => listItem.data);
+  listItems.sort((a, b) => b.year - a.year);
+
+  const test = _.groupBy(listItems, "year");
+  let allWorkshops = Object.entries(test).sort(
+    ([ayear], [byear]) => byear - ayear
+  );
+
   return {
-    props: { data },
+    props: { allWorkshops },
   };
 }
