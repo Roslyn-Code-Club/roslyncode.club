@@ -18,7 +18,7 @@ export default function Attendance() {
   );
   const dayOfWeek = new Date().toLocaleString("default", { weekday: "long" });
   let formElement;
-  if (dayOfWeek === "Wednesday" && noMeeting != true) {
+  if (dayOfWeek.toLowerCase() === "wednesday" && noMeeting != true) {
     if (
       dayjsObj.isBetween(
         dayjs(today.setHours(15, 45)),
@@ -51,7 +51,7 @@ export default function Attendance() {
         </>
       );
     }
-  } else if (dayOfWeek === "Friday" && noMeeting != true) {
+  } else if (dayOfWeek.toLowerCase() === "friday" && noMeeting != true) {
     if (
       dayjsObj.isBetween(
         dayjs(today.setHours(14, 44)),
