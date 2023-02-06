@@ -1,20 +1,21 @@
 import "../../styles/globals.css";
+import "../../styles/grid.css";
 import { ThemeProvider } from "next-themes";
 import Navbar from "../components/global/Navbar";
 import SEO from "../components/global/SEO";
-import NProgress from "nprogress"
-import Router from "next/router"
+import NProgress from "nprogress";
+import Router from "next/router";
 import Footer from "../components/global/Footer";
-import { SessionProvider } from "next-auth/react"
+import { SessionProvider } from "next-auth/react";
 
 NProgress.configure({ showSpinner: false });
-Router.onRouteChangeStart = url => {
-  NProgress.start()
-}
+Router.onRouteChangeStart = (url) => {
+  NProgress.start();
+};
 
-Router.onRouteChangeComplete = () => NProgress.done()
+Router.onRouteChangeComplete = () => NProgress.done();
 
-Router.onRouteChangeError = () => NProgress.done()
+Router.onRouteChangeError = () => NProgress.done();
 
 export default function App({ Component, pageProps, session }) {
   return (
@@ -22,7 +23,7 @@ export default function App({ Component, pageProps, session }) {
       <SessionProvider session={session}>
         <SEO />
         <ThemeProvider attribute="class">
-          <Navbar />
+          {<Navbar /> && pageProps.hackathon !== true}
           <Component {...pageProps} />
           <Footer />
         </ThemeProvider>
