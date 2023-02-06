@@ -1,7 +1,7 @@
 export default function Hackathon() {
   return (
     <>
-      <main class="animated-grid flex justify-center">
+      <main className="animated-grid flex justify-center">
         <div className="grid-fade" />
         <div className="grid-lines" />
         <div className="flex flex-col items-center gap-y-8 max-w-7xl p-8 w-full h-full absolute z-50 top-1/3 scale-110">
