@@ -23,7 +23,7 @@ export default function App({ Component, pageProps, session }) {
       <SessionProvider session={session}>
         <SEO />
         <ThemeProvider attribute="class">
-          {<Navbar /> && pageProps.hackathon !== true}
+          {pageProps.hackathon === true ? null : <Navbar />}
           <Component {...pageProps} />
           <Footer />
         </ThemeProvider>
