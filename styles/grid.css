@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  perspective: 65vh;
+  perspective: 75vh;
 }
 
 .glow-white {
@@ -35,7 +35,7 @@
   background-size: 45px 30px;
   background-repeat: repeat;
   transform-origin: 100% 0 0;
-  animation: play 15s linear infinite;
+  animation: play 20s ease-in-out infinite alternate;
 }
 
 @keyframes play {

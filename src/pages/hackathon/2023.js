@@ -24,9 +24,9 @@ export default function Hackathon() {
           </section>
         </div>
       </main>
-      <section className="bg-roslyn w-full min-h-screen flex flex-col items-center px-8 py-16">
+      <section className="bg-roslyn w-full min-h-screen flex flex-col gap-16 items-center px-8 py-16">
         <div className="w-full flex flex-col-reverse sm:flex-row justify-between gap-8 items-center max-w-none sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-7xl">
-          <div className="relative w-64 h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 rounded-md overflow-hidden shadow-lg">
+          <div className="relative w-64 h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 rounded-2xl overflow-hidden shadow-lg">
             <Image
               alt="Keyboard Cat"
               src={`/img/hackathon/keyboard-cat.gif`}
@@ -38,7 +38,7 @@ export default function Hackathon() {
           </div>
           <div className="w-full sm:w-1/2 2xl:w-[55%] flex flex-col items-start justify-start gap-4">
             <h1 className="text-3xl md:text-4xl 2xl:text-5xl font-bold tracking-tight">
-              Welcome!
+              Welcome :)
             </h1>
             <p className="text-base md:text-lg 2xl:text-xl 2xl:leading-10">
               Code Overload is a hackathon run by the Code Club at Roslyn High
@@ -54,6 +54,24 @@ export default function Hackathon() {
               .
             </p>
           </div>
+        </div>
+        <div className="w-full max-w-none sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-7xl flex flex-col items-start justify-start gap-4">
+          <h1 className="text-3xl md:text-4xl 2xl:text-5xl font-bold tracking-tight">
+            What Do We Do?
+          </h1>
+          <p className="text-base md:text-lg 2xl:text-xl 2xl:leading-10">
+            Code Overload is a hackathon run by the Code Club at Roslyn High
+            School. We run workshops to help teach and inspire students with
+            ideas and skills to create their own projects. If you&#39;d like
+            some inspiration, feel free to check out what our club members have
+            created over the previous years{" "}
+            <Link href="/projects">
+              <span className="font-bold underline cursor-pointer hover:brightness-[80%] transition ease-linear">
+                here
+              </span>
+            </Link>
+            .
+          </p>
         </div>
       </section>
     </>
