@@ -32,3 +32,26 @@ export const hackathon23 = [
     event: "Judging, Awards, and Closing Ceremony",
   },
 ];
+
+export const faq = [
+  {
+    q: `When is Code Overload?`,
+    a: `Code Overload is scheduled for March 4th, 2023 starting at 9:00 AM at the Roslyn High School.`,
+  },
+  {
+    q: `Where is Code Overload being held and what format?`,
+    a: `Code Overload will be held in-person at Roslyn High School for the first time since 2017. In the first half of the event, we will be teaching workshops on three different areas of computer science to provide inspiration for a potential project idea. The second half will be used to develop that idea into a functional project that will be presented to the judges.`,
+  },
+  {
+    q: `Do I need to create a project based on the workshops?`,
+    a: `No, the workshops are to provide inspiration if you can't think of a project. However, it's recommended that you attend them anyways so you can learn something new.`,
+  },
+  {
+    q: `Can I work solo?`,
+    a: `You can, although it's not recommended. Hackathons are more fun when you're learning together!`,
+  },
+  {
+    q: `How are winners decided?`,
+    a: `The Code Club Board will serve as a judging panel and will determine winners using different criteria for different categories.`,
+  },
+];

@@ -68,17 +68,17 @@ const variant3 = {
 export default function About() {
   return (
     <>
-      <div className="w-full max-w-none sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-7xl flex flex-col items-start justify-start gap-6">
+      <div className="w-full max-w-none sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-7xl flex flex-col items-center justify-start gap-6">
         <motion.h1
           variants={titleVariants}
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0 }}
-          className="text-3xl md:text-4xl 2xl:text-5xl font-bold tracking-tight"
+          className="text-3xl md:text-4xl 2xl:text-5xl font-bold tracking-tight w-full text-center xl:text-start"
         >
           What Do We Do?
         </motion.h1>
-        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-start">
+        <ul className="grid grid-cols-1 xl:grid-cols-3 gap-8 items-start w-full">
           <motion.li
             variants={variant1}
             initial="offscreen"
