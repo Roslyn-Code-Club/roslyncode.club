@@ -40,7 +40,7 @@ export const faq = [
   },
   {
     q: `Where is Code Overload being held and what format?`,
-    a: `Code Overload will be held in-person at Roslyn High School for the first time since 2017. In the first half of the event, we will be teaching workshops on three different areas of computer science to provide inspiration for a potential project idea. The second half will be used to develop that idea into a functional project that will be presented to the judges.`,
+    a: `Code Overload will be held in-person at Roslyn High School for the first time since 2017. In the first half of the event, the board will be teaching workshops involving three different areas of computer science to provide inspiration for potential project ideas. The second half will be used to work together with your team to develop an idea into a functional project that will be presented to the judges.`,
   },
   {
     q: `Do I need to create a project based on the workshops?`,
@@ -52,7 +52,7 @@ export const faq = [
   },
   {
     q: `How are winners decided?`,
-    a: `The Code Club Board will serve as a judging panel and will determine winners using different criteria for different categories.`,
+    a: `The Code Club Board will serve as a judging panel and determine winners using different criteria for an assortment of categories.`,
   },
   {
     q: `I still have another question...`,
