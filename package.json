@@ -12,6 +12,7 @@
     "@tailwindcss/forms": "^0.5.2",
     "@tailwindcss/typography": "^0.5.3",
     "dayjs": "^1.11.3",
+    "framer-motion": "^9.0.2",
     "gray-matter": "^4.0.3",
     "lodash": "^4.17.21",
     "next": "12.2.0",
