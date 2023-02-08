@@ -54,4 +54,8 @@ export const faq = [
     q: `How are winners decided?`,
     a: `The Code Club Board will serve as a judging panel and will determine winners using different criteria for different categories.`,
   },
+  {
+    q: `I still have another question...`,
+    a: `You can contact anyone on the board using their email if you have any inquiries or email our club advisor at bciavarella@roslynschools.org`,
+  },
 ];
