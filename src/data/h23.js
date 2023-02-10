@@ -36,7 +36,7 @@ export const hackathon23 = [
 export const faq = [
   {
     q: `When is Code Overload?`,
-    a: `Code Overload is scheduled for March 4th, 2023 starting at 9:00 AM at the Roslyn High School.`,
+    a: `Code Overload is scheduled for March 25th, 2023 starting at 9:00 AM at the Roslyn High School.`,
   },
   {
     q: `Where is Code Overload being held and what format?`,
