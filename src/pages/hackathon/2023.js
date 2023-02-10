@@ -12,7 +12,7 @@ export default function Hackathon() {
         <div className="grid-fade" />
         <div className="grid-lines" />
         <div className="flex flex-col items-center gap-y-8 max-w-7xl p-8 w-full h-full absolute z-50 top-1/3 scale-110">
-          <h1 className="text-center text-5xl sm:text-7xl 2xl:text-8xl font-bold select-none glow-white">
+          <h1 className="text-white text-center text-5xl sm:text-7xl 2xl:text-8xl font-bold select-none glow-white">
             Roslyn Code
             <br />
             Overload
@@ -20,12 +20,12 @@ export default function Hackathon() {
           </h1>
           <section className="flex flex-row justify-center gap-4 2xl:gap-16 w-fit">
             <Link href="/">
-              <span className="w-fit text-center cursor-pointer px-6 py-3 border-2 border-white hover:border-roslyn rounded-xl bg-white bg-opacity-10 backdrop-blur-md hover:bg-roslyn font-semibold text-sm md:text-base lg:text-lg 2xl:text-xl transition ease-linear shadow-gray-700 shadow-lg hover:shadow-[#5d77fcb7]">
+              <span className="w-fit text-center cursor-pointer px-6 py-3 border-2 text-white border-white hover:border-roslyn rounded-xl bg-white bg-opacity-10 backdrop-blur-md hover:bg-roslyn font-semibold text-sm md:text-base lg:text-lg 2xl:text-xl transition ease-linear shadow-gray-700 shadow-lg hover:shadow-[#5d77fcb7]">
                 Register Here
               </span>
             </Link>
             <Link href="#event-schedule">
-              <span className="w-fit text-center cursor-pointer px-6 py-3 border-2 border-white hover:border-roslyn rounded-xl bg-white bg-opacity-10 backdrop-blur-md hover:bg-roslyn font-bold text-sm md:text-base lg:text-lg 2xl:text-xl transition ease-linear shadow-gray-700 shadow-lg hover:shadow-[#5d77fcb7]">
+              <span className="w-fit text-center cursor-pointer px-6 py-3 border-2 text-white border-white hover:border-roslyn rounded-xl bg-white bg-opacity-10 backdrop-blur-md hover:bg-roslyn font-bold text-sm md:text-base lg:text-lg 2xl:text-xl transition ease-linear shadow-gray-700 shadow-lg hover:shadow-[#5d77fcb7]">
                 Event Schedule
               </span>
             </Link>

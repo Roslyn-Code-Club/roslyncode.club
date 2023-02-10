@@ -3,6 +3,7 @@
   height: 100vh;
   overflow: hidden;
   perspective: 75vh;
+  background-color: black;
 }
 
 .glow-white {
