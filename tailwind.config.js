@@ -18,7 +18,7 @@ module.exports = {
         lighterbgcontrast: "#282828",
       },
       fontFamily: {
-        sans: ["InterVariable", ...defaultTheme.fontFamily.sans],
+        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
       },
     },
   },

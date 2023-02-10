@@ -14,8 +14,13 @@ export default function Navbar() {
   const [hamButton, setHamButton] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <>
-      <div className="fixed w-full z-50 h-20 bg-roslyn flex flex-row items-center px-5 justify-between xl:justify-center shadow-xl">
+    <div className="flex flex-col gap-4">
+      <Link href="/hackathon/2023">
+        <span className="fixed w-full py-1 bg-[#465bc7] font-bold z-50 text-center cursor-pointer brightness-95">
+          JOIN US FOR CODE OVERLOAD ON MARCH 4TH, 2022
+        </span>
+      </Link>
+      <div className="fixed w-full top-8 z-50 h-20 bg-roslyn flex flex-row items-center px-5 justify-between xl:justify-center shadow-xl">
         <div className="xl:max-w-7xl w-full flex flex-row items-center justify-between">
           <Link href="/">
             <div className="relative w-[4.25rem] h-[4.25rem] cursor-pointer hover:scale-110 hover:rotate-[-12deg] active:scale-[0.98] transition-[3s] ease-linear">
@@ -199,7 +204,7 @@ export default function Navbar() {
           </div>
         </CSSTransition>
       </div>
-    </>
+    </div>
   );
 }
 

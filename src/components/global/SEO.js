@@ -23,6 +23,7 @@ export default function SEO() {
           sizes="16x16"
           href="/favicon/favicon-16x16.png"
         />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="title" content={siteMetadata.title} />

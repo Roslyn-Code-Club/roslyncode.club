@@ -8,18 +8,6 @@ export default function Footer() {
     <>
       <footer className="h-auto w-full bg-roslyn text-white p-4 flex items-center justify-center">
         <div className="w-full max-w-5xl text-center flex flex-col gap-4 items-center justify-center">
-          <a
-            href="https://szhao.dev"
-            target="_blank"
-            rel="noreferrer"
-            className="text-base font-semibold tracking-tight md:text-lg"
-          >
-            &copy;{" "}
-            {startYear == currentYear
-              ? currentYear
-              : `${startYear}-${currentYear}`}{" "}
-            Stanley Zhao
-          </a>
           <div className="flex flex-row gap-8 justify-center items-center">
             <a href={siteMetadata.instagram} target="_blank" rel="noreferrer">
               <svg
@@ -57,6 +45,18 @@ export default function Footer() {
               </svg>
             </a>
           </div>
+          <a
+            href="https://szhao.dev"
+            target="_blank"
+            rel="noreferrer"
+            className="text-sm font-medium tracking-tight md:text-base"
+          >
+            &copy;{" "}
+            {startYear == currentYear
+              ? currentYear
+              : `${startYear}-${currentYear}`}{" "}
+            Stanley Zhao
+          </a>
           <h1 className="text-sm tracking-tighter md:text-md">
             No part of this website may be reproduced or commercialized in any
             manner without prior written permission.{" "}
