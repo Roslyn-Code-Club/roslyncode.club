@@ -32,7 +32,6 @@ export default function App({ Component, pageProps, session }) {
       ) : (
         <>
           <SEO />
-          <Navbar />
           <Component {...pageProps} />
           <Footer />
         </>
