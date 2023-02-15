@@ -18,9 +18,10 @@ Router.onRouteChangeComplete = () => NProgress.done();
 Router.onRouteChangeError = () => NProgress.done();
 
 export default function App({ Component, pageProps, session }) {
+  // console.log(pageProps.hackathon === undefined);
   return (
     <SessionProvider session={session}>
-      {pageProps.hackathon === false ? (
+      {pageProps.hackathon === undefined ? (
         <>
           <ThemeProvider attribute="class">
             <SEO />
