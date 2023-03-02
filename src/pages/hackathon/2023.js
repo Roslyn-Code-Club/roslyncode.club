@@ -11,6 +11,8 @@ export default function Hackathon() {
       <main className="animated-grid flex justify-center">
         <div className="grid-fade" />
         <div className="grid-lines" />
+      </main>
+      <section className="flex justify-center w-full">
         <div className="flex flex-col items-center gap-y-8 max-w-7xl p-8 w-full h-full absolute z-50 top-1/3 scale-110">
           <h1 className="text-white text-center text-5xl sm:text-7xl 2xl:text-8xl font-bold select-none glow-white">
             Roslyn Code
@@ -31,14 +33,14 @@ export default function Hackathon() {
             </Link>
           </section>
         </div>
-      </main>
+      </section>
       <section className="bg-white text-black w-full min-h-screen flex flex-col gap-16 justify-around items-center px-8 py-24">
         <Info />
         <About />
       </section>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="w-full"
+        className="w-full hidden sm:block"
         version="1.1"
         viewBox="0 0 900 100"
       >
@@ -57,7 +59,7 @@ export default function Hackathon() {
       </section>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="w-full"
+        className="w-full hidden sm:block"
         version="1.1"
         viewBox="0 0 900 100"
       >
