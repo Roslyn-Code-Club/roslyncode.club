@@ -3,6 +3,12 @@ const projectsData = [
     year: "2023",
     projects: [
       {
+        name: "captiongen",
+        creators: ["Stanley Zhao"],
+        img: "captiongen.png",
+        demo: "https://captiongen.szhao.dev/",
+      },
+      {
         name: "AZPC",
         creators: ["Michael Arzanipour"],
         img: "azpc.png",
