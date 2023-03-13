@@ -13,7 +13,7 @@ export default function Hackathon() {
         <div className="grid-lines" />
       </main>
       <section className="flex justify-center w-full">
-        <div className="flex flex-col items-center gap-y-8 max-w-7xl p-8 w-full h-full absolute z-50 top-1/3 scale-110">
+        <div className="flex flex-col items-center gap-y-8 max-w-7xl p-8 w-full h-fit absolute z-50 top-1/3 scale-110">
           <h1 className="text-white text-center text-5xl sm:text-7xl 2xl:text-8xl font-bold select-none glow-white">
             Roslyn Code
             <br />
