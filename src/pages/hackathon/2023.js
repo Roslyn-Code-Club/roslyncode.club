@@ -4,6 +4,7 @@ import Info from "../../components/hackathon/Info";
 import About from "../../components/hackathon/About";
 import Schedule from "../../components/hackathon/Schedule";
 import FAQ from "../../components/hackathon/FAQ";
+import Sponsors from "../../components/hackathon/Sponsors";
 
 export default function Hackathon() {
   return (
@@ -37,6 +38,7 @@ export default function Hackathon() {
       <section className="bg-white text-black w-full min-h-screen flex flex-col gap-16 justify-around items-center px-8 py-24">
         <Info />
         <About />
+        <Sponsors />
       </section>
       <svg
         xmlns="http://www.w3.org/2000/svg"

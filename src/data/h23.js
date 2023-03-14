@@ -59,3 +59,11 @@ export const faq = [
     a: `You can contact anyone on the board using their email if you have any inquiries or email our club advisor at bciavarella@roslynschools.org`,
   },
 ];
+
+export const sponsors = [
+  {
+    name: "Wolfram",
+    img: "wolfram.png",
+    href: "https://wolfram.com/",
+  },
+];
