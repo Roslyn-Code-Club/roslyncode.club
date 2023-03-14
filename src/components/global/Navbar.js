@@ -15,9 +15,9 @@ export default function Navbar() {
   return (
     <div className="flex flex-col gap-4">
       <Link href="/hackathon/2023">
-        <span className="fixed text-white w-full py-1 bg-[#465bc7] font-bold z-50 text-center cursor-pointer brightness-95">
-          JOIN US FOR CODE OVERLOAD ON MARCH 25TH, 2023
-        </span>
+        <div className="fixed text-white text-xs w-full py-2 sm:text-base sm:py-1 bg-[#465bc7] font-bold z-50 text-center cursor-pointer brightness-95">
+          <span className="animate-pulse">JOIN US FOR CODE OVERLOAD ON MARCH 25TH, 2023</span>
+        </div>
       </Link>
       <div className="fixed w-full top-8 z-50 h-20 bg-roslyn flex flex-row items-center px-5 justify-between xl:justify-center shadow-xl">
         <div className="xl:max-w-7xl w-full flex flex-row items-center justify-between">
