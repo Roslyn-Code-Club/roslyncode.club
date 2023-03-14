@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { sponsors } from "../../data/h23";
 import Image from "next/image";
 
@@ -19,7 +18,7 @@ const titleVariants = {
   },
 };
 
-const variant1 = {
+const variant = {
   offscreen: {
     opacity: 0,
     y: 100,
@@ -30,38 +29,6 @@ const variant1 = {
       type: "spring",
       bounce: 0.4,
       duration: 1.2,
-    },
-    opacity: 1,
-  },
-};
-
-const variant2 = {
-  offscreen: {
-    opacity: 0,
-    y: 150,
-  },
-  onscreen: {
-    y: 0,
-    transition: {
-      type: "spring",
-      bounce: 0.4,
-      duration: 1.4,
-    },
-    opacity: 1,
-  },
-};
-
-const variant3 = {
-  offscreen: {
-    opacity: 0,
-    y: 175,
-  },
-  onscreen: {
-    y: 0,
-    transition: {
-      type: "spring",
-      bounce: 0.4,
-      duration: 1.6,
     },
     opacity: 1,
   },
@@ -84,7 +51,7 @@ export default function Sponsors() {
           {sponsors.map((sponsor, index) => (
             <a key={index} href={sponsor.href} target="_blank" rel="noreferrer">
               <motion.li
-                variants={variant1}
+                variants={variant}
                 initial="offscreen"
                 whileInView="onscreen"
                 viewport={{ once: true, amount: 0.4 }}
