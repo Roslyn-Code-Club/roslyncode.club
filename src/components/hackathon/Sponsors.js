@@ -70,7 +70,7 @@ const variant3 = {
 export default function Sponsors() {
   return (
     <>
-      <div className="w-full max-w-none sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-7xl flex flex-col items-center justify-start gap-6">
+      <div className="w-full max-w-none sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-7xl flex flex-col items-center justify-start gap-6 pt-24">
         <motion.h1
           variants={titleVariants}
           initial="offscreen"
