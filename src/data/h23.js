@@ -1,7 +1,7 @@
 export const hackathon23 = [
   {
     time: "9:00 AM - 9:30 AM",
-    event: "Welcome Ceremony and Breakfast",
+    event: "Welcome Ceremony",
   },
   {
     time: "9:30 AM - 10:15 AM",
