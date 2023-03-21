@@ -52,7 +52,7 @@ export const faq = [
   },
   {
     q: `Can I work solo?`,
-    a: `You can, although it's not recommended. Hackathons are more fun when you're learning together!`,
+    a: `You can, although it's not recommended. We strongly encourage everyone to form teams up to 3 people. Hackathons are more fun when you're learning together!`,
   },
   {
     q: `How are winners decided?`,
