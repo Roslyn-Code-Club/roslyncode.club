@@ -49,7 +49,12 @@ export default function Sponsors() {
         </motion.h1>
         <ul className="grid grid-cols-1 xl:grid-cols-3 gap-8 items-start w-full">
           {sponsors.map((sponsor, index) => (
-            <a key={index} href={sponsor.href} target="_blank" rel="noreferrer">
+            <a
+              key={index}
+              href={`${sponsor.href}?ref=roslyncode.club`}
+              target="_blank"
+              rel="noreferrer"
+            >
               <motion.li
                 variants={variant}
                 initial="offscreen"
