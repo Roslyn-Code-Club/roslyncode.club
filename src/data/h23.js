@@ -43,6 +43,10 @@ export const faq = [
     a: `Code Overload will be held in-person at Roslyn High School for the first time since 2020. In the first half of the event, the board will be teaching workshops involving three different areas of computer science to provide inspiration for potential project ideas. The second half will be used to work together with your team to develop an idea into a functional project that will be presented to the judges.`,
   },
   {
+    q: `Help! I don't know how to code!`,
+    a: `Don't worry! Code Overload is meant to be a fun learning experience regardless of skill or experience. We'll be running workshops in 3 different categories so that you can find something to build with your team!`,
+  },
+  {
     q: `Do I need to create a project based on the workshops?`,
     a: `No, the workshops are to provide inspiration if you can't think of a project. However, it's recommended that you attend them anyways so you can learn something new.`,
   },
@@ -65,5 +69,20 @@ export const sponsors = [
     name: "Wolfram",
     img: "wolfram.png",
     href: "https://wolfram.com/",
+  },
+  {
+    name: "Delicacies",
+    img: "delicacies.png",
+    href: "https://www.delicaciesgourmetdelicatessenpizza.com/",
+  },
+  {
+    name: "Gino's Parlor",
+    img: "ginos.png",
+    href: "https://ginosparlor.com/",
+  },
+  {
+    name: "Holiday Farms",
+    img: "holiday.png",
+    href: "https://www.holidayfarms.com/",
   },
 ];

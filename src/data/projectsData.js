@@ -9,6 +9,12 @@ const projectsData = [
         demo: "https://captiongen.szhao.dev/",
       },
       {
+        name: "Chroma AI",
+        creators: ["Stanley Zhao"],
+        img: "chroma.png",
+        demo: "https://chroma.szhao.dev/",
+      },
+      {
         name: "AZPC",
         creators: ["Michael Arzanipour"],
         img: "azpc.png",
