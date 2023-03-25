@@ -25,7 +25,14 @@ const nextConfig = {
       },
       {
         source: "/favorite",
-        destination: "https://forms.gle/YKcsE7fdWkvyGpzz8",
+        destination: "https://forms.gle/3YyQrtaoVu2vGLz19",
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: "/unity",
+        destination:
+          "https://drive.google.com/file/d/19wZDA2g4T1Q8qalH4fxSjTADhT74v_pK/view?usp=sharing",
         permanent: false,
         basePath: false,
       },
