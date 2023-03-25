@@ -24,7 +24,7 @@ const nextConfig = {
         basePath: false,
       },
       {
-        source: "/people",
+        source: "/favorite",
         destination: "https://forms.gle/YKcsE7fdWkvyGpzz8",
         permanent: false,
         basePath: false,
