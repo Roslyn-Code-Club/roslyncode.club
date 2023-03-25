@@ -24,6 +24,12 @@ const nextConfig = {
         permanent: false,
         basePath: false,
       },
+      {
+        source: "/people",
+        destination: "https://forms.gle/YKcsE7fdWkvyGpzz8",
+        permanent: false,
+        basePath: false,
+      },
     ];
   },
 };
