@@ -19,8 +19,7 @@ const nextConfig = {
     return [
       {
         source: "/exit",
-        destination:
-          "https://docs.google.com/forms/d/e/1FAIpQLSfmQ-yCuV8epQO8IkHSMSU2FKpKs4sTBNIc_OeWHfM-iOUWeg/viewform",
+        destination: "https://forms.gle/tYXkVh7g23jvjkHc6",
         permanent: false,
         basePath: false,
       },
