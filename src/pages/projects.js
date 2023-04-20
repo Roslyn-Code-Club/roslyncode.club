@@ -24,7 +24,11 @@ export default function Projects() {
                       <div className="relative w-full h-48 sm:h-64 shadow-lg rounded-lg overflow-hidden">
                         <Image
                           alt={p.name}
-                          src={`/img/projects/${p.img}`}
+                          src={
+                            p.img
+                              ? `/img/projects/${p.img}`
+                              : "/img/roslyncodeclub.png"
+                          }
                           layout="fill"
                           objectFit="cover"
                           objectPosition="center center"
@@ -35,7 +39,7 @@ export default function Projects() {
                             <h1 className="text-2xl text-white md:text-3xl 2xl:text-4xl font-bold tracking-tighter">
                               {p.name}
                             </h1>
-                            <h2 className="text-sm text-gray-200 md:text-lg 2xl:text-xl tracking-tighter whitespace-pre-wrap">
+                            <h2 className="text-sm text-gray-200 md:text-lg tracking-tighter whitespace-pre-wrap">
                               {p.creators.join(", ")}
                             </h2>
                           </div>

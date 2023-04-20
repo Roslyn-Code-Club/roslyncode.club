@@ -32,6 +32,38 @@ const projectsData = [
         img: "detectorbuilding.png",
         demo: "https://www.tinkercad.com/login?next=%2Fthings%2FgDvQ4Qn5iyG-detector-build-20%2Feditel%3Fsharecode%3DYUV7cibydu_L378Xg-Ia3Jz2HbHFN-Qr7HnIcf2jCq0",
       },
+      {
+        name: "Bunny Madlibs",
+        creators: ["Stephanie Yeh, Ariella Yousefzadeh, Leyna Hsu"],
+        demo: "https://replit.com/@ArielaYousefza1/Madlibs-in-Java?v=1",
+      },
+      {
+        name: "Personal Assistant",
+        creators: ["Jace Ko"],
+        demo: "https://replit.com/@JaceK8/FinancialFrugalSourcecode",
+      },
+      {
+        name: "Chess2D",
+        creators: ["Peter Tvedt", "Leo Cheng", "Mathu Xu"],
+        demo: "https://drive.google.com/file/d/1RTXmOTkH1FEizPkE_4b_VASYu7U9ycp-/view?usp=share_link",
+      },
+      {
+        name: "JFK Bellmore",
+        creators: [
+          "Evan Kolberg",
+          "Jayden Simon",
+          "Jack Levitt",
+          "Daniel Zhou",
+        ],
+        img: "jfkbellmore.png",
+        demo: "https://1drv.ms/i/s!AmLvGBmIAALlzT9_7rA_QKgBmAp9?e=SeKCov",
+      },
+      {
+        name: "Syntaxly",
+        creators: ["Wilbur Wei"],
+        img: "syntaxly.png",
+        demo: "https://syntaxly.jellyfish69420.repl.co/",
+      },
     ],
   },
   {
