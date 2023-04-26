@@ -19,7 +19,11 @@ export default function CarouselItem({
           <div className="relative w-full h-[45vh]">
             <Image
               alt={projectName}
-              src={`/img/projects/${img}`}
+              src={
+                img === undefined
+                  ? "/img/roslyncodeclub.png"
+                  : `/img/projects/${img}`
+              }
               layout="fill"
               objectFit="cover"
               objectPosition="center center"
