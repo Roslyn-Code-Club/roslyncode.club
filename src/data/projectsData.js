@@ -1,3 +1,5 @@
+//To add another one, just copy and paste an existing one and edit it
+
 const projectsData = [
   {
     year: "2023",

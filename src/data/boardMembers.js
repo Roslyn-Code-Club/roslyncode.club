@@ -1,3 +1,6 @@
+//Copy the old board data and paste it into the past board data array
+//Then, edit the board data to reflect the new board
+
 export const boardData = {
   year: 2022,
   members: [

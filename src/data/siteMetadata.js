@@ -1,3 +1,5 @@
+//You can leave this alone unless you need to update the social media links
+
 const siteMetadata = {
   title: "Roslyn Code Club",
   desc: "Welcome to the Roslyn Code Club! Here, you can create projects, develop a new hobby, and have fun learning how to code.",

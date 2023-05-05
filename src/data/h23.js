@@ -1,3 +1,5 @@
+//This was the 2023 hackathon file. You can edit this file to change the hackathon schedule, FAQ, and sponsors.
+
 export const hackathon23 = [
   {
     time: "9:00 AM - 9:30 AM",

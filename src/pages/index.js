@@ -25,7 +25,6 @@ export default function Home() {
               timeBeforeDelete={2000}
               loop
               dataToRotate={[
-                // Banner 1
                 [{ type: "word", text: ` learn to code.` }],
                 [{ type: "word", text: ` have fun.` }],
                 [{ type: "word", text: ` create a new project.` }],

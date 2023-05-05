@@ -1,3 +1,5 @@
+//Add upcoming competitions and edit the dates here
+
 export const competitions = [
   {
     title: "USACO",
