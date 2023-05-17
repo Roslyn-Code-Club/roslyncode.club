@@ -43,7 +43,7 @@ export default function CurrentBoard() {
             Contact
           </a>
         </li>
-        {boardData.members.map((e, key) => (
+        {boardData.boardMembers.map((e, key) => (
           <li
             className="flex flex-col p-4 sm:p-6 md:p-10 w-auto whitespace-nowrap bg-gray-100 dark:bg-darkbgcontrast rounded-lg shadow-lg gap-y-8 items-center h-full justify-between"
             key={key}

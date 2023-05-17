@@ -39,20 +39,18 @@ export default function PastBoard() {
                     </h2>
                   </div>
                 </div>
-                {e.email && (
-                  <a
-                    href={`mailto:${
-                      e.email.includes("@")
-                        ? e.email
-                        : `${e.email}@roslynschools.org`
-                    }`}
-                    className="bg-roslyn px-4 py-2 w-full text-center 2xl:max-w-[90%] rounded-lg font-semibold text-xl cursor-pointer shadow-lg text-gray-100 hover:translate-y-[-0.125rem] hover:brightness-[85%] transition-[3s] ease-linear"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Contact
-                  </a>
-                )}
+                {e.email &&
+                  !e.email.includes("roslynschools.org") &&
+                  e.email.includes("@") && (
+                    <a
+                      href={`mailto:${e.email}`}
+                      className="bg-roslyn px-4 py-2 w-full text-center 2xl:max-w-[90%] rounded-lg font-semibold text-xl cursor-pointer shadow-lg text-gray-100 hover:translate-y-[-0.125rem] hover:brightness-[85%] transition-[3s] ease-linear"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Contact
+                    </a>
+                  )}
               </li>
             ))}
           </ul>

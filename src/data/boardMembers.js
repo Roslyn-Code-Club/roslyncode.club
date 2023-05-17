@@ -2,42 +2,49 @@
 //Then, edit the board data to reflect the new board
 
 export const boardData = {
-  year: 2022,
-  members: [
+  year: 2023,
+  boardMembers: [
     {
-      name: "Stanley Zhao",
+      name: "Aryan Kumar",
       position: "President",
-      email: "szhao23",
-      img: "stanley.png",
+      email: "akumar24",
+      img: "aryan.jpg",
+    },
+    {
+      name: "Neville Pethani",
+      position: "President",
+      email: "npethani24",
+      img: "neville.jpg",
+    },
+    {
+      name: "Stephanie Yeh",
+      position: "Vice President",
+      email: "syeh24",
+      img: "",
     },
     {
       name: "Hanah Youn",
-      position: "President",
+      position: "Vice President",
       email: "hyoun24",
       img: "hanah.jpg",
     },
     {
-      name: "Sonia Chandra",
-      position: "Vice President",
-      email: "schandra23",
-      img: "sonia.jpg",
-    },
-    {
-      name: "Arya Sinha",
-      position: "Vice President",
-      email: "asinha23",
-      img: "arya.jpg",
-    },
-    {
-      name: "Brian Song",
+      name: "Ethan Berkowitz",
       position: "Captain of Competition",
-      email: "bsong23",
+      email: "eberkowitz25",
+      img: "",
     },
     {
-      name: "Neville Pethani",
+      name: "Gabriel Kahen",
+      position: "Secretary",
+      email: "gkahen24",
+      img: "",
+    },
+    {
+      name: "Amar Chandra",
       position: "Community Outreach",
-      email: "npethani24",
-      img: "neville.jpg",
+      email: "achandra24",
+      img: "",
     },
     {
       name: "Amin Daneshmandnia",
@@ -46,26 +53,84 @@ export const boardData = {
       img: "amin.jpg",
     },
     {
-      name: "Brooke Weiss",
+      name: "Justin Margulies",
       position: "Event Organizer",
-      email: "bweiss23",
-      img: "brooke.jpg",
+      email: "jmargulies25",
+      img: "",
     },
     {
-      name: "Aryan Kumar",
-      position: "Secretary",
-      email: "akumar24",
-      img: "aryan.jpg",
-    },
-    {
-      name: "Dante Turkashwand",
+      name: "Zach Yadegari",
       position: "Treasurer",
-      email: "dturkashwand24",
+      email: "zyadegari25",
+      img: "",
     },
   ],
 };
 
 export const pastBoardData = [
+  {
+    year: 2022,
+    boardMembers: [
+      {
+        name: "Stanley Zhao",
+        position: "President",
+        email: "stanleyz@mit.edu",
+        img: "stanley.png",
+      },
+      {
+        name: "Hanah Youn",
+        position: "President",
+        email: "hyoun24",
+        img: "hanah.jpg",
+      },
+      {
+        name: "Sonia Chandra",
+        position: "Vice President",
+        email: "schandra23",
+        img: "sonia.jpg",
+      },
+      {
+        name: "Arya Sinha",
+        position: "Vice President",
+        email: "asinha23",
+        img: "arya.jpg",
+      },
+      {
+        name: "Brian Song",
+        position: "Captain of Competition",
+        email: "bsong23",
+      },
+      {
+        name: "Neville Pethani",
+        position: "Community Outreach",
+        email: "npethani24",
+        img: "neville.jpg",
+      },
+      {
+        name: "Amin Daneshmandnia",
+        position: "Community Outreach",
+        email: "adaneshmandnia24",
+        img: "amin.jpg",
+      },
+      {
+        name: "Brooke Weiss",
+        position: "Event Organizer",
+        email: "bweiss23",
+        img: "brooke.jpg",
+      },
+      {
+        name: "Aryan Kumar",
+        position: "Secretary",
+        email: "akumar24",
+        img: "aryan.jpg",
+      },
+      {
+        name: "Dante Turkashwand",
+        position: "Treasurer",
+        email: "dturkashwand24",
+      },
+    ],
+  },
   {
     year: 2021,
     boardMembers: [
