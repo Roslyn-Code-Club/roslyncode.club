@@ -1,7 +1,7 @@
 ---
 title: AI with JavaScript
 year: 2022
-draft: true
+draft: false
 category: js
 number: 6
 ---
