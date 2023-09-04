@@ -6,7 +6,7 @@ export default function CurrentBoard() {
   let tenure = `${boardData.year}-${boardData.year + 1}`;
   let month = new Date().getMonth();
   //If it's past September, we'll adjust for the next school year
-  if (month + 1 >= 9) tenure = `${boardData.year + 1}-${boardData.year + 2}`;
+  // if (month + 1 >= 9) tenure = `${boardData.year + 1}-${boardData.year + 2}`;
   return (
     <>
       <h1 className="pt-16 text-5xl md:text-6xl 2xl:text-7xl font-bold tracking-tighter">
