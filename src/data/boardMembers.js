@@ -62,7 +62,7 @@ export const boardData = {
       name: "Zach Yadegari",
       position: "Treasurer",
       email: "zyadegari25",
-      img: "",
+      img: "zach.png",
     },
   ],
 };
