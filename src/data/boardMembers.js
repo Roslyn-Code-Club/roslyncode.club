@@ -32,7 +32,7 @@ export const boardData = {
       name: "Ethan Berkowitz",
       position: "Captain of Competition",
       email: "eberkowitz25",
-      img: "",
+      img: "Berko.jpg",
     },
     {
       name: "Gabriel Kahen",
@@ -44,7 +44,7 @@ export const boardData = {
       name: "Amar Chandra",
       position: "Community Outreach",
       email: "achandra24",
-      img: "",
+      img: "amar.png",
     },
     {
       name: "Amin Daneshmandnia",
@@ -56,7 +56,7 @@ export const boardData = {
       name: "Justin Margulies",
       position: "Event Organizer",
       email: "jmargulies25",
-      img: "",
+      img: "justin.jpg",
     },
     {
       name: "Zach Yadegari",
