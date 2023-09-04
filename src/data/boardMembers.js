@@ -32,7 +32,7 @@ export const boardData = {
       name: "Ethan Berkowitz",
       position: "Captain of Competition",
       email: "eberkowitz25",
-      img: "berko.jpg",
+      img: "Berko.jpg",
     },
     {
       name: "Gabriel Kahen",
