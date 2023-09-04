@@ -20,7 +20,7 @@ export const boardData = {
       name: "Stephanie Yeh",
       position: "Vice President",
       email: "syeh24",
-      img: "Stephanie.jpg",
+      img: "Stephanie.jpeg",
     },
     {
       name: "Hanah Youn",
