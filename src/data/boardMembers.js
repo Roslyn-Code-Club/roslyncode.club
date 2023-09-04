@@ -38,7 +38,7 @@ export const boardData = {
       name: "Gabriel Kahen",
       position: "Secretary",
       email: "gkahen24",
-      img: "gabe.JPG",
+      img: "gabe.jpg",
     },
     {
       name: "Amar Chandra",
