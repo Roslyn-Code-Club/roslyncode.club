@@ -32,13 +32,13 @@ export const boardData = {
       name: "Ethan Berkowitz",
       position: "Captain of Competition",
       email: "eberkowitz25",
-      img: "Berko.jpg",
+      img: "berko.jpg",
     },
     {
       name: "Gabriel Kahen",
       position: "Secretary",
       email: "gkahen24",
-      img: "gabe.jpg",
+      img: "gabe.JPG",
     },
     {
       name: "Amar Chandra",
