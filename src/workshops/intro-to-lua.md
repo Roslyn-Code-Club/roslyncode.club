@@ -2,7 +2,7 @@
 title: Introduction to Lua
 year: 2023
 draft: true
-category: js
+category: lua
 number: 1
 ---
 

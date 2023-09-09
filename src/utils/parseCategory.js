@@ -13,6 +13,8 @@ export const parseCategory = (category) => {
     return py;
   } else if (category == "ctf") {
     return ctf;
+  } else if (catergory == "lua") {
+    return lua;
   } else {
     return "placeholder";
   }
@@ -36,4 +38,6 @@ const java =
 const py =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg";
 
-const ctf = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+const ctf = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg";
+
+const lua = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg"
