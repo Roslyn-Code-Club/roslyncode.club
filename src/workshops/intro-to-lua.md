@@ -1,7 +1,7 @@
 ---
 title: Introduction to Lua
 year: 2023
-draft: false
+draft: true
 category: js
 number: 1
 ---
@@ -12,8 +12,8 @@ Today we will learn about Lua. It is mainly used by game programmers due to its 
 
 If you are using multiple Lua files for a game, which you most likely will do, you must have a require statement for each file in the main.lua file
 
-```lua
 Example:
+```lua
 main.lua
 player.lua
 conf.lua
