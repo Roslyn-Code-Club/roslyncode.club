@@ -13,7 +13,7 @@ export const parseCategory = (category) => {
     return py;
   } else if (category == "ctf") {
     return ctf;
-  } else if (catergory == "lua") {
+  } else if (category == "lua") {
     return lua;
   } else {
     return "placeholder";
