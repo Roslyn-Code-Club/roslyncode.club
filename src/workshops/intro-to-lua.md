@@ -115,19 +115,19 @@ self.doggy1.changeName(self.doggy1, "Puddles")
 
 And after we call all of this code, this is the result:
 
-> Dog 1: Piper
-> Dog 1: Golden Retriever
-> Dog 2: Lucky
+> Dog 1: Piper <br>
+> Dog 1: Golden Retriever <br>
+> Dog 2: Lucky <br>
 > Dog 2: Golden Retriever
 
-> Dog 1: Piper
-> Dog 1: Husky
-> Dog 2: Lucky
+> Dog 1: Piper <br>
+> Dog 1: Husky <br>
+> Dog 2: Lucky <br>
 > Dog 2: Husky
 
-> Dog 1: Puddles
-> Dog 1: Husky
-> Dog 2: Lucky
+> Dog 1: Puddles <br>
+> Dog 1: Husky <br>
+> Dog 2: Lucky <br>
 > Dog 2: Husky
 
 <br>
