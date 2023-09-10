@@ -1,7 +1,7 @@
 ---
 title: Introduction to Lua
 year: 2023
-draft: true
+draft: false
 category: lua
 number: 1
 ---
