@@ -31,7 +31,7 @@ x = “Hello”
 
 ### The Concept of Nil
 
-Nil is similar to null, in that it doesn’t represent a number, it just represents the absence of a value that is supposed to be there
+Nil is similar to null, in that it doesn’t represent a number, it just represents the absence of a value that is supposed to be there.
 Where they differ, however, is that assigning nil to value completely deletes that variable from memory
 
 If you say
@@ -86,7 +86,7 @@ This means you could have an instance variable in the return and then a separate
 Well, it’s pretty simple
 
 ```lua
-self.doggy1 = dogClass("Piper")
+    self.doggy1 = dogClass("Piper")
     self.doggy2 = dogClass("Lucky")
     print("Dog 1: " .. self.doggy1:getName())
     print("Dog 1: " .. self.doggy1:getBreed())
