@@ -21,7 +21,7 @@ Each number variable can only be one character long and must be either a letter 
 
 This means that you can only have 27 variables that contain numbers in a program
 
-String variables (text) can only be called **Str(1-9) or Str0**, meaning there are only 10 variables that can hold strings (ex: Str1, Str2, Str3 …)
+String variables (text) can only be called **Str(1-9) or Str0**, meaning there are only 10 variables that can hold strings (ex: Str1, Str2, Str3 …) To find these characters go Vars->Option 7
 
 Lists are technically a type of variable, but also you can have a ***“real”*** variable and a ***“list”*** variable with the same name in Ti-Basic so I’ll save them for later for both your and my sanity
 
@@ -38,7 +38,6 @@ A+1→A
 Str1+" World"→Str1
 ```
 > Assigns “Str1” to “Hello”, then changes it to “Hello World”
-To write the Str variables, you have to press Var->7 and then choose which string variable you want to use
 
 
 **Important** - ***The sto→ key is right above the on key and it’s the arrow symbol that allows you to store your value inside a variable***
@@ -98,7 +97,7 @@ A number with a value of 0 evaluates to false and any other value evaluates to t
 
 #### Lbl & Goto
 
-You make a label called something, then you call **Goto** the name of that label, and then your program goes back to where your label is
+You make a label called something, then you call **Goto** the name of that label, your program will go back to where your label is
 
 Labels can be a whole **TWO** characters long (wow), you can also have a variable and a label of the same name and your code still works!
 
@@ -144,7 +143,7 @@ for(int i = 1; i<=a; i++){
 
 ### Lists
 
-Lists are mean, bad and I hate them and it’s totally not because it took me 3 hours to figure out how to save a game
+Lists are mean, bad, and I hate them. It’s totally not because it took me 3 hours to figure out how to save a game
 
 You can use the normal lists (L1, L2, L3, L4) for your program (which is quite useful in Stat) but you can also make your own, sectioned off lists of your choice
 
@@ -174,8 +173,8 @@ Disp ⌊A(4)
 ```
 
 This would display:
-> 5
-> {6 7 8 9}
+> 5 <br>
+> {6 7 8 9} <br>
 > 9
 
 You can find the **⌊** by going to **2nd &rarr; Stat** and scrolling to the **“OPS”** tab and it’s the last option
