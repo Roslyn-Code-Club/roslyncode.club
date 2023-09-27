@@ -232,7 +232,7 @@ To get the **“dim”** expression press **2nd &rarr; Stat &rarr; OPS &rarr; Op
 
 Putting **“** literally just a single quote with no spaces at the end of the program gets rid of the **“done”** message when your program terminates
 
-To insert a new line in the middle of your program, you press **2nd &rarr; del &arr; enter**
+To insert a new line in the middle of your program, you press **2nd &rarr; del &rarr; enter**
 
 Using everything we learned we can now make a basic clicker that saves:
 ```json
