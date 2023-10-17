@@ -2,7 +2,7 @@
 title: Introduction to Pygame 
 year: 2023
 draft: false
-category: python 
+category: py 
 number: 3
 ---
 
