@@ -12,7 +12,7 @@ For PyGame you need a basic understanding of Python already, and if you don’t 
 
 ### Basic Window
 
-```Python
+```python
 windowName = pygame.display.set_mode((windowLength, windowHeight)) 
 #Displays window with specified length and height
 ```
@@ -53,7 +53,7 @@ from pygame.locals import (
     K_RIGHT,
     K_ESCAPE,
     KEYDOWN,
-  KEYUP,
+    KEYUP,
     QUIT,
 )
 ```
