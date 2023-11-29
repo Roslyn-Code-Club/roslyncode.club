@@ -29,6 +29,7 @@ Last week we got into the basics of C++ (really similar to java)! Today, let's d
    ```
 
    - **Class Definition and Member Function Implementation:**
+   
    Member functions are basically the equivalent of java methods. They are associated with either a class or object, as they aim to retrieve, change, or set a value. 
 
    ```cpp
