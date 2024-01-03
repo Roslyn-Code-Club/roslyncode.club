@@ -23,7 +23,7 @@ export default function CurrentBoard() {
                 objectFit="cover"
                 objectPosition="center center"
                 draggable="false"
-              />
+              />  
             </div>
             <div className="flex flex-col">
               <h1 className="text-2xl md:text-3xl 2xl:text-4xl font-semibold tracking-tighter whitespace-pre-wrap">
