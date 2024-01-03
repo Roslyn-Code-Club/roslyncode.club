@@ -15,6 +15,8 @@ export const parseCategory = (category) => {
     return ctf;
   } else if (category == "lua") {
     return lua;
+  } else if (category == "godot"){
+    return godot;
   } else {
     return "placeholder";
   }
@@ -38,6 +40,11 @@ const java =
 const py =
   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg";
 
-const ctf = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg";
+const ctf = 
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg";
 
-const lua = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg"
+const lua = 
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg";
+
+const godot = 
+  "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg"
