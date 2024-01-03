@@ -19,7 +19,7 @@ If you need a reference for syntax, it can be found here: **[Reference](https://
 ## Starting Your 1st Project
 
 After you make your first project, you’ll see this panel on the top left: 
-![top panel](../public/img/Godot/toppanel.png)
+![top panel](/public/img/Godot/toppanel.png)
 
 Godot is mainly a 2D Engine, and I’m not going to try to fiddle with an inferior 3D graphics system, so we’re going to make a 2D Scene (blue icon near the top)
 
