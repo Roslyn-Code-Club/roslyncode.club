@@ -60,6 +60,9 @@ For example:
 
 ![code](https://raw.githubusercontent.com/Roslyn-Code-Club/roslyncode.club/main/public/img/Godot/timecode.png)
 
+Here I have a “update_facing_direction” function, that does exactly what the name implies
+
+Note: to do this in this case you must declare the direction variable in the global scope (declaring it outside of “_phyiscs_processes” function), it is a float, so just set it to 0
 
 
 
