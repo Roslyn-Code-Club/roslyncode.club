@@ -14,13 +14,13 @@ Replace your **Sprite2D** with an **AnimatedSprite2D**
 
 With an Animated Sprite you can add multiple different animations, from walking to jumping and idle all in one sprite instead of making multiple Sprite2D’s and switching them out
 
-![sprite frame](/public/img/Godot/spriteframe.png)
+![sprite frame](https://github.com/Roslyn-Code-Club/roslyncode.club/blob/main/public/img/Godot/spriteframe.png)
 
 
 Under the properties of the animated sprite, make new SpriteFrames
 Then double click sprite frames again and you should get this window on the bottom
 
-![frame window](/public/img/Godot/framewindow.png)
+![frame window](https://github.com/Roslyn-Code-Club/roslyncode.club/blob/main/public/img/Godot/framewindow.png)
 
 Now click the grid/wafer icon &rarr; **&#9638;**, select your sprite sheet and then look at the top right of the popup
 
@@ -57,7 +57,7 @@ It’s also good practice to make separate functions so you can read your code e
 
 For example:
 
-![code](/public/img/Godot/timecode.png)
+![code](https://github.com/Roslyn-Code-Club/roslyncode.club/blob/main/public/img/Godot/timecode.png)
 
 
 
