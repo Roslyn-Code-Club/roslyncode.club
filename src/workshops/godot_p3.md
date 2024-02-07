@@ -6,8 +6,6 @@ category: godot
 number: 9
 ---
 
-https://raw.githubusercontent.com/Roslyn-Code-Club/roslyncode.club/main/
-
 Hey everyone! Last time we went over aesthetics and how to get time involved into our games. Today we'll be going over had to get **collectables** to further round out and complete our game. As always if you ever need to remind yourself go back to previous lessons to freshen up your memory. 
 
 # Collectables and Sub Scenes 
