@@ -42,7 +42,7 @@ It will then prompt you to connect it and hit the button that says “Connect”
 
 Then in the function all you need to write is:
 
-```json
+```python
 func_on_body_entered(body):
     if(body.name=="Player"):
         queue_free() #deletes coin instance
@@ -53,7 +53,7 @@ Then add a blank Node (In your full scene, not this subscene) and call it GameMa
 Then remove all the code it gives you besides the “extends Node” at the top
 Then add a coin variable counter and make a function that increases your variable by a certain amount, like so
 
-```json
+```python
 extends Node
 
 var coins = 0
@@ -66,14 +66,14 @@ Then right click the game manager and click “% Access as Unique Name”
 
 Now go back to your coins script and add: 
 
-```json
+```python 
 extends Area2D
 @onready var game_manager = %GameManager
 ```
 
 Then in your _on_body_entered function add this: 
 
-```json
+```python
 func _on_body_enetered(body):
     if(body.name=="Player"):
         queue_free() #deletes coin instance
@@ -90,7 +90,7 @@ Then going and adding a “Label” underneath it
 
 Then all you need to do is go back in the GameManager script, connect the label and then set the text to the number of coins you have
 
-```json
+```python
 var coins = 0
 @onready var coinText = $"../CanvasLayer/Panel/Label" #I am too lazy to make a #name for this, so sue me 
 
