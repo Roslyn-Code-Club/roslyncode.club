@@ -8,7 +8,7 @@ import Router from "next/router";
 import Footer from "../components/global/Footer";
 import { SessionProvider } from "next-auth/react";
 
-NProgress.configure({ showSpinner: true });
+NProgress.configure({ showSpinner: false });
 Router.onRouteChangeStart = (url) => {
   NProgress.start();
 };
