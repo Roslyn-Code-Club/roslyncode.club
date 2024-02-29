@@ -8,7 +8,7 @@ import Router from "next/router";
 import Footer from "../components/global/Footer";
 import { SessionProvider } from "next-auth/react";
 
-NProgress.configure({ showSpinner: false });
+NProgress.configure({ showSpinner: true });
 Router.onRouteChangeStart = (url) => {
   NProgress.start();
 };
@@ -18,7 +18,7 @@ Router.onRouteChangeComplete = () => NProgress.done();
 Router.onRouteChangeError = () => NProgress.done();
 
 export default function App({ Component, pageProps, session }) {
-  console.log(pageProps.hackathon === undefined);
+  // console.log(pageProps.hackathon === undefined);
   return (
     <SessionProvider session={session}>
       {pageProps.hackathon === undefined ? (
