@@ -7,15 +7,15 @@ export const hackathon23 = [
   },
   {
     time: "9:30 AM - 10:15 AM",
-    event: "Workshops (Arduino and AI)",
+    event: "Workshops (Godot)",
   },
   {
     time: "10:30 AM - 11:15 AM",
-    event: "Workshops (Arduino and Unity)",
+    event: "Workshops (Java GUI in Swing)",
   },
   {
     time: "11:30 AM - 12:15 PM",
-    event: "Workshops (AI and Unity)",
+    event: "Workshops (AI)",
   },
   {
     time: "12:15 PM - 1:00 PM",
