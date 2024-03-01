@@ -2,11 +2,11 @@
 
 export const hackathon23 = [
   {
-    time: "9:00 AM - 9:30 AM",
+    time: "9:00 AM - 9:15 AM",
     event: "Welcome Ceremony",
   },
   {
-    time: "9:30 AM - 10:15 AM",
+    time: "9:30 AM - 10:30 AM",
     event: "Workshops (Godot)",
   },
   {
@@ -14,19 +14,19 @@ export const hackathon23 = [
     event: "Workshops (Java GUI in Swing)",
   },
   {
-    time: "11:30 AM - 12:15 PM",
+    time: "11:15 AM - 12:00 PM",
     event: "Workshops (AI)",
   },
+  // {
+  //   time: "12:15 PM - 1:00 PM",
+  //   event: "Brainstorming and Working on Projects",
+  // },
   {
-    time: "12:15 PM - 1:00 PM",
-    event: "Brainstorming and Working on Projects",
-  },
-  {
-    time: "1:00 PM - 2:00 PM",
+    time: "12:00 PM - 1:00 PM",
     event: "Lunch Break",
   },
   {
-    time: "2:00 PM - 4:00 PM",
+    time: "1:00 PM - 4:00 PM",
     event: "Working on Projects",
   },
   {
