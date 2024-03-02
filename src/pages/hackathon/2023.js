@@ -32,6 +32,11 @@ export default function Hackathon() {
                 Event Schedule
               </span>
             </Link>
+            <Link href="https://forms.gle/9YbbPcy1vLqWwiti9">
+              <span className="w-fit text-center cursor-pointer p-3 lg:px-6 border-2 text-white border-white hover:border-roslyn rounded-xl bg-white bg-opacity-10 backdrop-blur-md hover:bg-roslyn font-semibold text-sm md:text-base lg:text-lg 2xl:text-xl transition ease-linear shadow-gray-700 shadow-lg hover:shadow-[#5d77fcb7]">
+                VOTE PEOPLE'S CHOICE
+              </span>
+            </Link>
           </section>
         </div>
       </section>
