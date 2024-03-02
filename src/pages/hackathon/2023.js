@@ -24,7 +24,7 @@ export default function Hackathon() {
           <section className="flex flex-row justify-center gap-4 2xl:gap-16 w-fit">
             <Link href="https://forms.gle/xSk9wGR2TxLkmWPy7">
               <span className="w-fit text-center cursor-pointer p-3 lg:px-6 border-2 text-white border-white hover:border-roslyn rounded-xl bg-white bg-opacity-10 backdrop-blur-md hover:bg-roslyn font-semibold text-sm md:text-base lg:text-lg 2xl:text-xl transition ease-linear shadow-gray-700 shadow-lg hover:shadow-[#5d77fcb7]">
-                Register Here
+                VOTE PEOPLE'S CHOICE!
               </span>
             </Link>
             <Link href="https://docs.google.com/forms/d/e/1FAIpQLSe3PSbPFjdlSOX6nGllSFpq13NlOSUPzgqS-o9PxPnjoIE6xQ/viewform">
