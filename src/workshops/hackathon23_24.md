@@ -16,7 +16,7 @@ Click here to follow along Neville as he teaches about [Godot](https://drive.goo
 
 ## Java GUI in Swing
 
-Click here to follow along Justin as he teaches about [Java GUI in Swing]()
+Click here to follow along Justin as he teaches about [Java GUI in Swing](https://docs.google.com/presentation/d/16RCCuczNuH073OthZOwL4vGHHBQNZV-ub7MFndco2hk/edit?usp=sharing)
 
 ## A.I
 
