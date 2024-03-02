@@ -1,7 +1,7 @@
 ---
 title: Hackathon 23-24
 year: 2023
-draft: true
+draft: false
 category: other
 number: 10
 ---
