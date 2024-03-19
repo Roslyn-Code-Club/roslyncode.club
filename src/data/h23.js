@@ -17,10 +17,6 @@ export const hackathon23 = [
     time: "11:15 AM - 12:00 PM",
     event: "Workshops (AI)",
   },
-  // {
-  //   time: "12:15 PM - 1:00 PM",
-  //   event: "Brainstorming and Working on Projects",
-  // },
   {
     time: "12:00 PM - 1:00 PM",
     event: "Lunch Break",
