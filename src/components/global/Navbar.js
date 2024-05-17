@@ -15,11 +15,11 @@ export default function Navbar() {
   return (
     <div className="flex flex-col gap-4">
       {/* hackathon banner starts here */}
-      {/* <Link href="/hackathon/2023"> 
+      <Link href="/hackathon/2023"> 
         <div className="fixed text-white text-xs w-full py-2 sm:text-base sm:py-1 bg-[#465bc7] font-bold z-50 text-center cursor-pointer brightness-95">
           <span className="animate-pulse">REGISTER FOR CODE OVERLOAD ON MARCH 2ND</span>
         </div>
-      </Link> */}
+      </Link>
       {/* ends here --> just comment out the code in between to view hackathon banner */}
       <div className="fixed w-full top-8 z-50 h-20 bg-roslyn flex flex-row items-center px-5 justify-between xl:justify-center shadow-xl">
         <div className="xl:max-w-7xl w-full flex flex-row items-center justify-between">
