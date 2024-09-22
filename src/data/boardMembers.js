@@ -26,7 +26,7 @@ export const boardData = {
       name: "Wilbur Wei",
       position: "Vice President",
       email: "wwei26",
-      img: "wilbur.png",
+      img: "wilbur.jpg",
     },
     {
       name: "Ethan Lee",
@@ -38,7 +38,7 @@ export const boardData = {
       name: "Ethan Jeon",
       position: "Secretary",
       email: "ejeon26",
-      img: "jeon.png",
+      img: "jeon.jpg",
     },
     {
       name: "Ariela Yousefzadeh",
