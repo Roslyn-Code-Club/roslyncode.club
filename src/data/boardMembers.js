@@ -20,7 +20,7 @@ export const boardData = {
       name: "John Thomas Canton",
       position: "Vice President",
       email: "jcanton26",
-      img: "programmer.jpeg",
+      img: "jt.jpg",
     },
     {
       name: "Wilbur Wei",
