@@ -26,7 +26,7 @@ export const boardData = {
       name: "Wilbur Wei",
       position: "Vice President",
       email: "wwei26",
-      img: "programmer.jpg",
+      img: "wilbur.png",
     },
     {
       name: "Ethan Lee",
@@ -38,7 +38,7 @@ export const boardData = {
       name: "Ethan Jeon",
       position: "Secretary",
       email: "ejeon26",
-      img: "programmer.png",
+      img: "jeon.png",
     },
     {
       name: "Ariela Yousefzadeh",
@@ -50,13 +50,13 @@ export const boardData = {
       name: "Tyler Osit",
       position: "Event Organizer",
       email: "tosit25",
-      img: "programmer.jpg",
+      img: "tyler.jpg",
     },
     {
       name: "Zach Szerencsy",
       position: "Treasurer",
       email: "zszerencsy26",
-      img: "programmer.jpg",
+      img: "zach.jpg",
     },
   ],
 };
