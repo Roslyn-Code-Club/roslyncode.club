@@ -50,7 +50,7 @@ export const boardData = {
       name: "Tyler Osit",
       position: "Event Organizer",
       email: "tosit25",
-      img: "tyler.jpg",
+      img: "osit.jpg",
     },
     {
       name: "Zach Szerencsy",
