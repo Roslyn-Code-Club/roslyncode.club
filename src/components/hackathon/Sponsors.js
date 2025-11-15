@@ -48,7 +48,7 @@ export default function Sponsors() {
           Our Sponsors
         </motion.h1>
         {sponsors.length === 0 && (
-          <p className="text-base md:text-lg 2xl:text-xl 2xl:leading-10 text-left self-start">
+          <p className="text-base md:text-lg 2xl:text-xl 2xl:leading-10 text-center self-center xl:text-left xl:self-start">
             Looking to sponsor? Contact us at rhscodeclub@gmail.com
           </p>
         )}

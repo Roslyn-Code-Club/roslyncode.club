@@ -14,13 +14,16 @@ export default function Hackathon() {
         <div className="grid-lines" />
       </main>
       <section className="flex justify-center w-full">
-        <div className="flex flex-col items-center gap-y-8 max-w-xs sm:max-w-lg 2xl:max-w-2xl p-2 w-full h-fit absolute z-50 top-1/3 scale-110">
+        <div className="flex flex-col items-center gap-y-8 max-w-xs sm:max-w-lg 2xl:max-w-2xl p-2 w-full h-fit absolute z-50 top-1/4 scale-110">
           <h1 className="text-white text-center text-5xl sm:text-7xl 2xl:text-8xl font-bold select-none glow-white">
             Roslyn Code
             <br />
             Overload
             <span className="text-roslyn tracking-tighter font-extrabold drop-shadow-lg shadow-white glow-roslyn">{`</>`}</span>
           </h1>
+          <p className="text-white text-center text-base sm:text-xl 2xl:text-2xl select-none glow-white">
+            9am - 5pm, December 6th, 2025 @ Roslyn High School
+          </p>
           <section className="flex flex-row justify-center gap-4 2xl:gap-16 w-fit">
             {/* "In case we do have voting for the hackathon" */}
             {/* <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf-pa0GYNS8r5ymy70cS9b51jeieEHZl-hKAxsII1LTohnZag/viewform?usp=sf_link">
@@ -39,6 +42,7 @@ export default function Hackathon() {
               </span>
             </Link>
           </section>
+          <svg xmlns="http://www.w3.org/2000/svg" className="animate-bounce" height="60px" viewBox="0 -960 960 960" width="60px" fill="#e3e3e3"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" /></svg>
         </div>
       </section>
       <section className="bg-white text-black w-full min-h-screen flex flex-col gap-16 justify-around items-center px-8 py-24">
