@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { sponsors } from "../../data/h23";
+import { sponsors } from "../../data/h25";
 import Image from "next/image";
 
 const titleVariants = {
@@ -47,7 +47,13 @@ export default function Sponsors() {
         >
           Our Sponsors
         </motion.h1>
+        {sponsors.length === 0 && (
+          <p className="text-base md:text-lg 2xl:text-xl 2xl:leading-10 text-left self-start">
+            Looking to sponsor? Contact us at rhscodeclub@gmail.com
+          </p>
+        )}
         <ul className="grid grid-cols-1 xl:grid-cols-3 gap-8 items-start w-full">
+
           {sponsors.map((sponsor, index) => (
             <a
               key={index}

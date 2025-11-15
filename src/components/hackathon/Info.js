@@ -89,7 +89,7 @@ export default function Info() {
             viewport={{ once: true, amount: 0.4 }}
             className="text-base md:text-lg 2xl:text-xl 2xl:leading-10"
           >
-            Code Overload is a hackathon run by the Code Club at Roslyn High
+            Code Overload is the annual hackathon run by the Code Club at Roslyn High
             School. Through workshops and lessons, we hope to teach and inspire
             students with ideas and skills to create their own projects. If
             you&#39;re in need of some ideas, feel free to check out{" "}

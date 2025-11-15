@@ -1,5 +1,5 @@
 import FAQItem from "./FAQItem";
-import { faq } from "../../data/h23";
+import { faq } from "../../data/h25";
 
 export default function FAQ() {
   return (

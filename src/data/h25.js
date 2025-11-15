@@ -7,15 +7,15 @@ export const hackathon23 = [
   },
   {
     time: "9:30 AM - 10:30 AM",
-    event: "Workshops (Godot)",
+    event: "Workshops (TBD)",
   },
   {
     time: "10:30 AM - 11:15 AM",
-    event: "Workshops (Java GUI in Swing)",
+    event: "Workshops (TBD)",
   },
   {
     time: "11:15 AM - 12:00 PM",
-    event: "Workshops (AI)",
+    event: "Workshops (TBD)",
   },
   {
     time: "12:00 PM - 1:00 PM",
@@ -34,7 +34,7 @@ export const hackathon23 = [
 export const faq = [
   {
     q: `When is Code Overload?`,
-    a: `Code Overload is scheduled for March 2nd, 2024 starting at 9:00 AM at the Roslyn High School.`,
+    a: `Code Overload is scheduled for December 6th, 2025 starting at 9:00 AM at the Roslyn High School.`,
   },
   {
     q: `Where is Code Overload being held and what format?`,
@@ -63,29 +63,29 @@ export const faq = [
 ];
 
 export const sponsors = [
-  {
-    name: "Wolfram",
-    img: "wolfram.png",
-    href: "https://wolfram.com/",
-  },
-  {
-    name: "Delicacies",
-    img: "delicacies.png",
-    href: "https://www.delicaciesgourmetdelicatessenpizza.com/",
-  },
-  {
-    name: "Gino's Parlor",
-    img: "ginos.png",
-    href: "https://ginosparlor.com/",
-  },
-  {
-    name: "Holiday Farms",
-    img: "holiday.png",
-    href: "https://www.holidayfarms.com/",
-  },
-  {
-    name: "Carlos Pizza",
-    img: "Carlos.png",
-    href: "https://carlospizzapw.com/"
-  }
+  // {
+  //   name: "Wolfram",
+  //   img: "wolfram.png",
+  //   href: "https://wolfram.com/",
+  // },
+  // {
+  //   name: "Delicacies",
+  //   img: "delicacies.png",
+  //   href: "https://www.delicaciesgourmetdelicatessenpizza.com/",
+  // },
+  // {
+  //   name: "Gino's Parlor",
+  //   img: "ginos.png",
+  //   href: "https://ginosparlor.com/",
+  // },
+  // {
+  //   name: "Holiday Farms",
+  //   img: "holiday.png",
+  //   href: "https://www.holidayfarms.com/",
+  // },
+  // {
+  //   name: "Carlos Pizza",
+  //   img: "Carlos.png",
+  //   href: "https://carlospizzapw.com/"
+  // }
 ];

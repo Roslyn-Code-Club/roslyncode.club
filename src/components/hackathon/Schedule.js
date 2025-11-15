@@ -1,5 +1,5 @@
 import React from "react";
-import { hackathon23 } from "../../data/h23";
+import { hackathon23 } from "../../data/h25";
 import { motion } from "framer-motion";
 
 const title = {
