@@ -1,5 +1,7 @@
 //This was the 2023 hackathon file. You can edit this file to change the hackathon schedule, FAQ, and sponsors.
 
+import { m } from "framer-motion";
+
 export const hackathon23 = [
   {
     time: "9:00 AM - 9:15 AM",
@@ -88,4 +90,44 @@ export const sponsors = [
   //   img: "Carlos.png",
   //   href: "https://carlospizzapw.com/"
   // }
+  {
+    name:"NordVPN",
+    img:"nordvpn.png",
+    href:"https://nordvpn.com/"
+  },
+  {
+    name:"NordPass",
+    img:"nordpass.png",
+    href:"https://nordpass.com/"
+  },
+  {
+    name:"NordProtect",
+    img:"nordprotect.png",
+    href:"https://nordprotect.com/"
+  },
+  {
+    name:"Incogni",
+    img:"incogni.png",
+    href:"https://incogni.com/"
+  },
+  {
+    name:"Saily",
+    img:"saily.png",
+    href:"https://saily.com/"
+  },
+  {
+    name:"Nexos.ai",
+    img:"nexos.png",
+    href:"https://www.nexos.ai/"
+  },
+  {
+    name:"Vincent's Pizzeria",
+    img:"vincents.png",
+    href:"https://www.vincentsalbertson.com/"
+  },
+  {
+    name:"C2C Robotics",
+    img:"c2crobotics.png",
+    href:"https://c2crobotics.com/"
+  }
 ];
