@@ -15,13 +15,14 @@ export default function Navbar() {
   return (
     <div className="flex flex-col gap-4">
       {/* hackathon banner starts here */}
-      <Link href="/hackathon/2025"> 
+      {/* <Link href="/hackathon/2025"> 
         <div className="fixed text-white text-xs w-full py-2 sm:text-base sm:py-1 bg-[#465bc7] font-bold z-50 text-center cursor-pointer brightness-95">
           <span className="animate-pulse">REGISTER FOR CODE OVERLOAD ON DECEMBER 6TH</span>
         </div>
-      </Link>
+      </Link> */}
       {/* ends here --> just comment out the code in between to view hackathon banner */}
-      <div className="fixed w-full top-8 z-50 h-20 bg-roslyn flex flex-row items-center px-5 justify-between xl:justify-center shadow-xl">
+      <div className="fixed w-full z-50 h-20 bg-roslyn flex flex-row items-center px-5 justify-between xl:justify-center shadow-xl"> 
+        {/* ^^ The top-8 property is the spacing on top. Add that in if you have the hackathon bar*/ }
         <div className="xl:max-w-7xl w-full flex flex-row items-center justify-between">
           <Link href="/">
             <div className="relative w-[4.25rem] h-[4.25rem] cursor-pointer hover:scale-110 hover:rotate-[-12deg] active:scale-[0.98] transition-[3s] ease-linear">
