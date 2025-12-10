@@ -93,7 +93,7 @@ export const sponsors = [
   {
     name:"NordVPN",
     img:"nordvpn.png",
-    href:"https://nordvpn.com/"
+    href:"https://nordvpn.com/hackathons"
   },
   {
     name:"NordPass",
