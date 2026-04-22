@@ -2,6 +2,21 @@
 //Then, edit the board data to reflect the new board
 
 export const boardData = {
+  year: 2025,
+  boardMembers: [
+  
+    {
+      name: "Aaron Kruger",
+      position: "Treasurer",
+      email: "akruger28",
+      img: "kruger.jpg",
+    },
+
+  ],
+};
+
+export const pastBoardData = [
+  {
   year: 2024,
   boardMembers: [
     {
@@ -59,10 +74,8 @@ export const boardData = {
       img: "zach.jpg",
     },
   ],
-};
-
-export const pastBoardData = [
-    {
+},  
+  {
     year: 2023,
     boardMembers: [
       {
